@@ -1,0 +1,429 @@
+[
+ {
+  "id": "beem",
+  "category": "open_stages",
+  "facts": {
+   "name": "BEEM Artist Showcase @ Wonderville",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Sign-up form: forms.gle/vXfFDuwJYfg7ebwf7 · Meetup: BEEM group (2,380 members) · Discord",
+   "when": "Monthly Thu 7–11pm · Sep 24, Oct 22",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 3,
+    "sound": 1,
+    "genre_focus": 2,
+    "set_minutes": 30,
+    "gear": "QSC PA + sub, Behringer X32, SM58/57s, stereo + mono DIs, guitar amps, CDJs, projector. Stage 10×7 ft, 75 cap."
+   },
+   "summary": "Brooklyn · Showcase (apply) · slot: About 30–45 min (4 acts per night)",
+   "verify": "Sound: QSC PA + subwoofer, X32. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://forms.gle/vXfFDuwJYfg7ebwf7",
+    "https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/",
+    "https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "patchbay",
+  "category": "open_stages",
+  "facts": {
+   "name": "PATCHBAY (New York Modular Society)",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "\"Play a Patchbay\" form on patchbay.nyc (name, IG, track or set sample)",
+   "when": "Monthly Sat 3–7pm · #34 on Oct 3 (NYMS 7th anniversary)",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 2,
+    "sound": 0,
+    "genre_focus": 2,
+    "set_minutes": 30,
+    "gear": "PA not listed . Contact tim@timcox.co for logistics."
+   },
+   "summary": "Brooklyn · Showcase (apply) · slot: 4–5 acts per edition, about 30–40 min",
+   "verify": "Sound: Not listed. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.patchbay.nyc/",
+    "https://www.patchbay.nyc/"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "eris",
+  "category": "open_stages",
+  "facts": {
+   "name": "Eris Open Decks",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "In person at the event only (no email or DMs). Slots book 2–4 weeks out. erisevolution.com/opendecks · IG @opendeckseris",
+   "when": "Every Wednesday, two floors",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "open_decks",
+    "rig_support": 2,
+    "sound": 2,
+    "genre_focus": 2,
+    "gear": "Funktion-One, CDJ-3000s, SL-1200s. Live and analog sets allowed with approval."
+   },
+   "summary": "Brooklyn · Open decks · slot: 1 hour per DJ per floor",
+   "verify": "Sound: Funktion-One. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.erisevolution.com/opendecks/",
+    "https://www.erisevolution.com/opendecks/"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "heaven-can-wait-group",
+  "category": "open_stages",
+  "facts": {
+   "name": "Berlin / Heaven Can Wait / Bowery Palace",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "One email reaches all three: booking@heavencanwaitnyc.com (forwarded to the Berlin and Bowery buyers). Alternatives: berlinundera@gmail.com, booking@bowerypalace.com",
+   "when": "Emerging bills most nights",
+   "distance_minutes": 25,
+   "min_age": 21,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "direct_booking",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 25,
+    "gear": "Full PA + backline. Bowery Palace: 3 stages, DJ gear included. 21+."
+   },
+   "summary": "Manhattan · Direct booking · slot: 25–40 min on multi-act bills",
+   "verify": "Sound: Rock-club PA; Bowery Palace adds DJ gear.",
+   "sources": [
+    "https://heavencanwaitnyc.com/"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "pianos",
+  "category": "open_stages",
+  "facts": {
+   "name": "Pianos (+ promoter series)",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Bands: booking@pianosnyc.com · DJ sets: dj@pianosnyc.com · Faster route: pitch the promoters FOUR NEW YORK, ZeroZero Presents or Stereo Mandrax",
+   "when": "Emerging bills nightly · booked into Nov 2026",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "direct_booking",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 1,
+    "set_minutes": 25,
+    "gear": "Two rooms with DJ culture, so laptop + stereo DI is normal."
+   },
+   "summary": "Manhattan · Direct booking · slot: 25–40 min",
+   "verify": "Sound: Standard club PA (brand unconfirmed). — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://pianosnyc.com/"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "sofar",
+  "category": "open_stages",
+  "facts": {
+   "name": "Sofar Sounds NYC",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Form only: sofarsounds.com/about/artists. Judged solely on 1–3 live videos.",
+   "when": "Weekly shows · replies take 8–12 weeks",
+   "distance_minutes": 20,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 2,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 20,
+    "gear": "PA varies and is often minimal."
+   },
+   "summary": "NYC-wide · Showcase (apply) · slot: 20–25 min, 3 acts",
+   "verify": "Sound: Varies, often minimal.",
+   "sources": [
+    "https://www.sofarsounds.com/about/artists",
+    "https://www.sofarsounds.com/about/artists"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "stella",
+  "category": "open_stages",
+  "facts": {
+   "name": "Stella Blues · Tuesday Open Mic",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "In person, first come first served",
+   "when": "Weekly Tue · sign-up 8:30pm",
+   "distance_minutes": 150,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "open_mic",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 10,
+    "gear": "Full backline + mics. Line input ; bring DIs."
+   },
+   "summary": "Connecticut · Open mic · slot: 10–15 min",
+   "verify": "Sound: Band PA. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.stellabluesnewhaven.com/"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "emergenza",
+  "category": "open_stages",
+  "facts": {
+   "name": "Emergenza",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Online entry via emergenza.net",
+   "when": "—",
+   "distance_minutes": 20,
+   "pay_to_play": "quota",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 2,
+    "sound": 0,
+    "genre_focus": 0,
+    "gear": "—"
+   },
+   "summary": "NYC-wide · Showcase (apply) · slot: — · Battle-of-the-bands format: advancement depends on ticket sales and audience voting",
+   "verify": "Format, slot length and sign-up route taken from the organiser's own page or official listing (Sep 2026)",
+   "sources": [
+    "https://www.emergenza.net/"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "colossus",
+  "category": "open_stages",
+  "facts": {
+   "name": "The New Colossus Festival 2027",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Online application ($100 fee) at newcolossusfestival.com/apply",
+   "when": "Deadline Dec 1 2026",
+   "distance_minutes": 25,
+   "pay_to_play": "fee",
+   "stage": {
+    "format": "festival_open_call",
+    "rig_support": 1,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 30,
+    "gear": "—"
+   },
+   "summary": "Manhattan · Festival / open call · slot: 30 min · Indie-rock showcase festival; $100 application fee; full bands only",
+   "verify": "Format, slot length and sign-up route taken from the organiser's own page or official listing (Sep 2026)",
+   "sources": [
+    "https://www.newcolossusfestival.com/apply",
+    "https://www.newcolossusfestival.com/apply"
+   ],
+   "seen_date": "2026-09-22",
+   "cost": "$100 application fee",
+   "cost_amount": 100
+  }
+ },
+ {
+  "id": "signal",
+  "category": "open_stages",
+  "facts": {
+   "name": "Signal · Open Decks",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Free, 21+. Half the slots go to the previous night's waitlist, half to door sign-ups. RA listing",
+   "when": "Irregular (Nov 20 2025, Mar 25 2026 seen) · watch RA / IG",
+   "distance_minutes": 25,
+   "min_age": 21,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "open_decks",
+    "rig_support": 1,
+    "sound": 2,
+    "genre_focus": 2,
+    "set_minutes": 15,
+    "gear": "Club booth"
+   },
+   "summary": "Brooklyn · Open decks · slot: 15 min (CDJs or turntables)",
+   "verify": "Sound: d&b audiotechnik (Mixmag). 210 cap, no phones on the floor. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://ra.co/events/2389313",
+    "https://ra.co/events/2389313"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "lotradio",
+  "category": "open_stages",
+  "facts": {
+   "name": "The Lot Radio",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Show proposal form: thelotradio.com/showform",
+   "when": "24/7 · 200+ residents and guests a week",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "radio_livestream",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 2,
+    "gear": "Booth + stream"
+   },
+   "summary": "Brooklyn · Radio / livestream · slot: 1-hour shows typical",
+   "verify": "Sound: Broadcast booth (not a PA room).",
+   "sources": [
+    "https://www.thelotradio.com/showform",
+    "https://www.thelotradio.com/showform"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "elsewhere",
+  "category": "open_stages",
+  "facts": {
+   "name": "Elsewhere · Zone One / local-night openers",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Artist Typeform via elsewhere.club/help · info@elsewhere.club",
+   "when": "Nightly",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "direct_booking",
+    "rig_support": 3,
+    "sound": 2,
+    "genre_focus": 2,
+    "set_minutes": 30,
+    "gear": "Live-band setups are normal"
+   },
+   "summary": "Brooklyn · Direct booking · slot: Opener 30–45 min",
+   "verify": "Sound: d&b KSL in The Hall (Bernie's Audio, unconfirmed). — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.elsewhere.club/help",
+    "https://www.elsewhere.club/help"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ },
+ {
+  "id": "delirium",
+  "category": "open_stages",
+  "facts": {
+   "name": "Delirium Open Decks",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Walk-up, first come first served, $10, 18+. Host: Tonton. RA",
+   "when": "Every Tuesday 8pm–1am",
+   "distance_minutes": 25,
+   "min_age": 18,
+   "pay_to_play": "fee",
+   "stage": {
+    "format": "open_decks",
+    "rig_support": 1,
+    "sound": 1,
+    "genre_focus": 2,
+    "set_minutes": 20,
+    "gear": "2× XDJ-1000MK2, DJM-900NXS2. USB only, no laptops."
+   },
+   "summary": "Brooklyn · Open decks · slot: 20 min",
+   "verify": "Sound: JBL tops + subs.",
+   "sources": [
+    "https://ra.co/events/2375511",
+    "https://ra.co/events/2375511"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ }
+]

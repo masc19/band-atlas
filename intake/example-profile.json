@@ -1,0 +1,104 @@
+{
+  "profile_id": "demo-hollow-tide",
+  "artist": "The Hollow Tide",
+  "lane": "live-electronic-downtempo",
+  "reference_artists": [
+    "Bonobo",
+    "Maribou State",
+    "Tourist",
+    "Kiasmos"
+  ],
+  "genre_tags": [
+    "live electronic",
+    "downtempo",
+    "electronica"
+  ],
+  "links": {
+    "audio": "https://example.org/hollow-tide/demos"
+  },
+  "performance": {
+    "format": "full_band",
+    "members": 3,
+    "also_djs": false,
+    "rig_needs": [
+      "backline",
+      "vocal_mic",
+      "stereo_line_in"
+    ],
+    "set_lengths": [
+      15,
+      30,
+      45
+    ],
+    "has_live_video": false
+  },
+  "home": {
+    "city": "New York",
+    "country": "US",
+    "travel_radius_minutes": 90,
+    "will_fly_for_showcase": false,
+    "languages": [
+      "en"
+    ]
+  },
+  "standing": {
+    "draw_band": 1,
+    "listeners_band": 1,
+    "catalogue": "singles",
+    "next_release_date": "2026-11-20",
+    "team": {
+      "manager": false,
+      "label": false,
+      "distributor": false,
+      "agent": false,
+      "publicist": false
+    },
+    "needs_dance_store_delivery": true,
+    "has_split_collaborators": true
+  },
+  "goals": [
+    "headline_room",
+    "label_deal",
+    "collaborators"
+  ],
+  "goal_detail": {
+    "headline_capacity": 300,
+    "label_tier": "indie",
+    "target_markets": [
+      "US",
+      "DE"
+    ]
+  },
+  "red_lines": {
+    "pay_to_play": "none",
+    "min_age_ok": 21,
+    "avoid_nights": [],
+    "avoid_scenes": [
+      "hard techno"
+    ]
+  },
+  "capacity": {
+    "hours_per_week": 4,
+    "budget_per_month": 60,
+    "showcase_budget_per_year": 0
+  },
+  "existing": {
+    "in_conversation_with": [
+      "Deep Root Records"
+    ],
+    "do_not_contact": [
+      "Emergenza"
+    ]
+  },
+  "depth": "standard",
+  "categories": [
+    "labels",
+    "distributors",
+    "open_stages",
+    "festivals",
+    "showcases",
+    "bookers",
+    "promoters",
+    "agents"
+  ]
+}

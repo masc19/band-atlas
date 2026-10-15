@@ -1,0 +1,129 @@
+[
+ {
+  "id": "wasserman-music-now-operating-as-the-team",
+  "category": "agents",
+  "facts": {
+   "name": "Wasserman Music (now operating as THE·TEAM)",
+   "city": "Los Angeles / New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "RÜFÜS DU SOL (signing reported by Rostr)",
+    "Ben Böhmer (agency page existed but now redirects",
+    "his own site currently lists CAA-affiliated agents)",
+    "historically ODESZA and the ex-Paradigm/AM Only electronic roster"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "contact": "Contact form at the.team/music-talent/contact-us/",
+   "url": "https://the.team",
+   "min_draw_band": 4,
+   "summary": "RÜFÜS DU SOL (signing reported by Rostr), Ben Böhmer (agency page existed but now redirects; his own site currently lists CAA-affiliated agents), historically ODESZA and the ex-Paradigm/AM Only electronic roster",
+   "verify": "Verified Aug 2026: artists.teamwass.com now redirects to the.team ('THE·TEAM') — Wasserman's music arm appears to have rebranded/restructured in 2026; confirm current name and agent moves before citing it. RÜFÜS signing verified via Rostr news; Ben Böhmer listing looks stale (his site names CAA-lane agents). — Contact source: the.team music-talent contact page fetched Aug 2026; IG and LinkedIn linked from the.team itself. Rebrand still fresh — re-check name/agents before citing.",
+   "sources": [
+    "https://the.team"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "tba-agency",
+  "category": "agents",
+  "facts": {
+   "name": "TBA Agency",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Bob Moses",
+    "Tycho",
+    "Caribou",
+    "Daphni",
+    "Yaeji"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "contact": "hello@tbaagency.com",
+   "url": "https://tbaagency.com",
+   "min_draw_band": 3,
+   "summary": "Bob Moses, Tycho, Caribou, Daphni, Yaeji, Poolside, The Presets, Todd Terje, Cut Copy, Hot Chip, Mura Masa (roster page verified Aug 2026)",
+   "verify": "Roster and contact verified from tbaagency.com Aug 2026. Kerala Dust's TBA artist URL now 404s — they may have left; verify before name-dropping. — Contact source: IG confirmed from tbaagency.com contact page (non-IG source), Aug 2026. Agent list is from a third-party directory (artistandfan) of unknown vintage — verify names before addressing anyone directly.",
+   "sources": [
+    "https://tbaagency.com"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "ground-control-touring",
+  "category": "agents",
+  "facts": {
+   "name": "Ground Control Touring",
+   "city": "New York / Los Angeles",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "126+ acts",
+    "electronic-adjacent wing incl. Boy Harsher",
+    "Black Marble",
+    "Drab Majesty (verified)",
+    "core is indie/alternative"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "contact": "Full agent directory with emails published at groundcontroltouring.com/agents: Eric Dimenstein (President/Co-Founder, Brooklyn) eric@groundcontroltouring.com · Andrew Ellis (Brooklyn) ellis@groundcontroltouring.com · John Chavez (SVP, LA) john@ · Jim Romeo (Co-Founder) jim@",
+   "url": "https://www.groundcontroltouring.com",
+   "min_draw_band": 2,
+   "summary": "126+ acts; electronic-adjacent wing incl. Boy Harsher, Black Marble, Drab Majesty (verified); core is indie/alternative",
+   "verify": "Agency, offices and roster names verified from site Aug 2026. Agents page exists but individual emails not captured; no submission policy published. — Contact source: Agents page quoted directly, Aug 2026. Published business addresses, not a demo inbox — they sign from shows, not submissions.",
+   "sources": [
+    "https://www.groundcontroltouring.com"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "paladin-artists",
+  "category": "agents",
+  "facts": {
+   "name": "Paladin Artists",
+   "city": "New York / Los Angeles / London",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Music",
+    "DJs",
+    "comedy and speakers divisions",
+    "music roster incl. A Place To Bury Strangers",
+    "10"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "contact": "Booking form on site · +1 917-277-3384 · Booking form and phone 917-277-3384 re-confirmed",
+   "url": "https://www.paladinartists.com",
+   "min_draw_band": 2,
+   "summary": "Music, DJs, comedy and speakers divisions; music roster incl. A Place To Bury Strangers, 10,000 Maniacs (verified); dedicated DJ category",
+   "verify": "Offices, divisions, form and phone verified from site Aug 2026. No melodic-house names visible on roster — fit is structural (accessible NY/London indie with DJ division), not scene-based. — Contact source: Form, phone and IG from paladinartists.com, Aug 2026. No individual agent emails published.",
+   "sources": [
+    "https://www.paladinartists.com"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ }
+]

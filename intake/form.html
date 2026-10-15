@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>band-atlas — intake form</title>
+<style>
+:root{--bg:#0b0908;--card:#14100e;--line:#2a221d;--ink:#f1ebe4;--mute:#a79a8e;--acc:#EF7A37;--acc2:#ffb27a;--warn:#f4c542;--ok:#7bd389;--mono:ui-monospace,"JetBrains Mono",Menlo,monospace;--sans:Rubik,system-ui,-apple-system,"Segoe UI",sans-serif}
+:root[data-theme="light"]{--bg:#f3efe9;--card:#fffdf9;--line:#ddd3c8;--ink:#1a1512;--mute:#6e6259;--acc:#d8651f;--acc2:#b24f12}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--sans)}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px}.brand b{color:var(--acc)}
+.thm{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:4px 10px;font:12px var(--mono);cursor:pointer}
+main{max-width:860px;margin:0 auto;padding:20px 16px 80px}
+h1{font-size:22px;margin:8px 0 4px}
+.lead{color:var(--mute);margin:0 0 20px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 8px;margin-bottom:14px}
+section h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin:0 0 12px}
+.q{margin:0 0 16px}
+.q label.t{display:block;font-weight:600;margin-bottom:6px}
+.q .hint{display:block;color:var(--mute);font-size:13px;margin:-2px 0 8px}
+input[type=text],input[type=url],input[type=number],input[type=date],select,textarea{width:100%;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font:14px var(--sans)}
+textarea{min-height:64px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--acc);outline-offset:0;border-color:transparent}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;user-select:none;font-size:14px;background:var(--bg)}
+.opt input{display:none}
+.opt.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:600px){.row{grid-template-columns:1fr}}
+.req{color:var(--acc)}
+.foot{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding:12px 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button.pri{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:600 14px var(--sans);cursor:pointer}
+button.sec{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font:14px var(--sans);cursor:pointer}
+#out{display:none;margin-top:14px}
+#out pre{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px;font:12.5px/1.45 var(--mono);white-space:pre-wrap;max-height:360px;overflow:auto}
+.msg{font-size:13px;color:var(--mute)}.msg.err{color:var(--warn)}.msg.ok{color:var(--ok)}
+.paste{background:var(--card);border:1px dashed var(--acc);border-radius:10px;padding:12px 14px;margin-top:10px;font-size:14px}
+.paste code{font:13px var(--mono);color:var(--acc2)}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<header><div class="brand">band <b>atlas</b> · intake</div><button class="thm" id="thm">Light</button></header>
+<main>
+<h1>Tell the atlas about your act</h1>
+<p class="lead">About twenty answers, mostly taps. When you're done, press <b>Build profile</b>, copy the JSON and paste it into your Claude conversation. Nothing leaves this page; it works offline. Fields marked <span class="req">*</span> are required.</p>
+
+<section><h2>1 · Who you are musically</h2>
+<div class="q"><label class="t">Artist or band name <span class="req">*</span></label><input type="text" id="artist" placeholder="e.g. The Hollow Tide"></div>
+<div class="q"><label class="t">Three to five artists your music sits next to <span class="req">*</span></label><span class="hint">One per line or comma-separated. Labels, promoters and agents are organised around rosters, not genre words — this is the most important answer.</span><textarea id="refs" placeholder="Artist one&#10;Artist two&#10;Artist three"></textarea></div>
+<div class="q"><label class="t">Lane</label><span class="hint">Leave empty. Claude builds the lane from your reference artists and shows it to you once for confirmation.</span><input type="text" id="lane" placeholder="let Claude infer from the reference artists"></div>
+<div class="q"><label class="t">Link to your music</label><input type="url" id="audio" placeholder="https://"></div>
+</section>
+
+<section><h2>2 · How you perform</h2>
+<div class="q"><label class="t">Live format <span class="req">*</span></label><div class="opts" data-one="format">
+<label class="opt"><input type="radio" name="format" value="dj">DJ</label>
+<label class="opt"><input type="radio" name="format" value="laptop_live">Laptop live</label>
+<label class="opt"><input type="radio" name="format" value="laptop_vocal">Laptop + vocal</label>
+<label class="opt"><input type="radio" name="format" value="laptop_vocal_instrument">Laptop + vocal + instrument</label>
+<label class="opt"><input type="radio" name="format" value="full_band">Full band</label>
+<label class="opt"><input type="radio" name="format" value="acoustic">Acoustic</label></div></div>
+<div class="row">
+<div class="q"><label class="t">How many people travel <span class="req">*</span></label><input type="number" id="members" min="1" max="12" value="1"></div>
+<div class="q"><label class="t">Do you also DJ? <span class="req">*</span></label><div class="opts" data-one="also_djs"><label class="opt"><input type="radio" name="also_djs" value="true">Yes</label><label class="opt"><input type="radio" name="also_djs" value="false">No</label></div></div>
+</div>
+<div class="q"><label class="t">What you need from a room <span class="req">*</span></label><span class="hint">Pick all that apply.</span><div class="opts" data-many="rig_needs">
+<label class="opt"><input type="checkbox" value="stereo_line_in">Stereo line-in</label>
+<label class="opt"><input type="checkbox" value="vocal_mic">Vocal mic</label>
+<label class="opt"><input type="checkbox" value="instrument_di">Instrument DI</label>
+<label class="opt"><input type="checkbox" value="backline">Backline</label>
+<label class="opt"><input type="checkbox" value="cdjs">CDJs</label>
+<label class="opt"><input type="checkbox" value="none">Nothing special</label></div></div>
+<div class="q"><label class="t">Set lengths you can deliver today <span class="req">*</span></label><div class="opts" data-many="set_lengths">
+<label class="opt"><input type="checkbox" value="5">5 min</label><label class="opt"><input type="checkbox" value="15">15</label><label class="opt"><input type="checkbox" value="30">30</label><label class="opt"><input type="checkbox" value="45">45</label><label class="opt"><input type="checkbox" value="60">60</label></div></div>
+<div class="q"><label class="t">Do you have a full-set live video? <span class="req">*</span></label><span class="hint">Showcases and most bookers judge on video; this changes dozens of records.</span><div class="opts" data-one="has_live_video"><label class="opt"><input type="radio" name="has_live_video" value="true">Yes</label><label class="opt"><input type="radio" name="has_live_video" value="false">No</label></div><input type="url" id="live_video" placeholder="link (optional)" style="margin-top:8px"></div>
+</section>
+
+<section><h2>3 · Where you are</h2>
+<div class="row">
+<div class="q"><label class="t">Home city <span class="req">*</span></label><input type="text" id="city" placeholder="e.g. Brooklyn"></div>
+<div class="q"><label class="t">Country (2-letter code) <span class="req">*</span></label><input type="text" id="country" maxlength="2" placeholder="US"></div>
+</div>
+<div class="row">
+<div class="q"><label class="t">How far you'll travel for a single slot <span class="req">*</span></label><div class="opts" data-one="radius"><label class="opt"><input type="radio" name="radius" value="60">Up to 1 h</label><label class="opt"><input type="radio" name="radius" value="120">Up to 2 h</label><label class="opt"><input type="radio" name="radius" value="180">Up to 3 h</label><label class="opt"><input type="radio" name="radius" value="300">Up to 5 h</label><label class="opt"><input type="radio" name="radius" value="600">Anywhere in a day</label></div></div>
+<div class="q"><label class="t">Will you fly for a showcase conference? <span class="req">*</span></label><div class="opts" data-one="fly"><label class="opt"><input type="radio" name="fly" value="true">Yes</label><label class="opt"><input type="radio" name="fly" value="false">No</label></div></div>
+</div>
+</section>
+
+<section><h2>4 · Where you stand today</h2>
+<div class="q"><label class="t">Draw in your home city <span class="req">*</span></label><span class="hint">People who come because it's you, not because of the night. A realistic number keeps the "approach now" list reliable — "none yet" is a normal answer.</span><div class="opts" data-one="draw">
+<label class="opt"><input type="radio" name="draw" value="0">None yet</label><label class="opt"><input type="radio" name="draw" value="1">Under 20</label><label class="opt"><input type="radio" name="draw" value="2">20–50</label><label class="opt"><input type="radio" name="draw" value="3">50–150</label><label class="opt"><input type="radio" name="draw" value="4">150+</label></div></div>
+<div class="q"><label class="t">Monthly listeners</label><div class="opts" data-one="listeners">
+<label class="opt"><input type="radio" name="listeners" value="0">Under 1k</label><label class="opt"><input type="radio" name="listeners" value="1">1–10k</label><label class="opt"><input type="radio" name="listeners" value="2">10–50k</label><label class="opt"><input type="radio" name="listeners" value="3">50–250k</label><label class="opt"><input type="radio" name="listeners" value="4">250k+</label></div></div>
+<div class="row">
+<div class="q"><label class="t">Released catalogue <span class="req">*</span></label><div class="opts" data-one="catalogue">
+<label class="opt"><input type="radio" name="catalogue" value="none">Nothing yet</label><label class="opt"><input type="radio" name="catalogue" value="singles">Singles</label><label class="opt"><input type="radio" name="catalogue" value="ep">EP</label><label class="opt"><input type="radio" name="catalogue" value="album">Album</label></div></div>
+<div class="q"><label class="t">Next release date</label><input type="date" id="next_release"></div>
+</div>
+<div class="q"><label class="t">Team you already have</label><span class="hint">Categories you already cover are dropped from the run.</span><div class="opts" data-many="team">
+<label class="opt"><input type="checkbox" value="manager">Manager</label><label class="opt"><input type="checkbox" value="label">Label</label><label class="opt"><input type="checkbox" value="distributor">Distributor</label><label class="opt"><input type="checkbox" value="agent">Agent</label><label class="opt"><input type="checkbox" value="publicist">Publicist</label></div></div>
+<div class="row">
+<div class="q"><label class="t">Need Beatport / Traxsource delivery?</label><div class="opts" data-one="dance"><label class="opt"><input type="radio" name="dance" value="true">Yes</label><label class="opt"><input type="radio" name="dance" value="false">No</label></div></div>
+<div class="q"><label class="t">Collaborators or remixers who need royalty splits?</label><div class="opts" data-one="splits"><label class="opt"><input type="radio" name="splits" value="true">Yes</label><label class="opt"><input type="radio" name="splits" value="false">No</label></div></div>
+</div>
+</section>
+
+<section><h2>5 · What you want in 12 months</h2>
+<div class="q"><label class="t">Goals for the next 12 months <span class="req">*</span></label><span class="hint">Pick all that apply.</span><div class="opts" id="goals">
+<label class="opt" data-v="headline_room">Headline a room</label><label class="opt" data-v="label_deal">Label deal</label><label class="opt" data-v="booking_agent">Booking agent</label><label class="opt" data-v="festival_slots">Festival slots</label><label class="opt" data-v="distribution_deal">Distribution deal</label><label class="opt" data-v="collaborators">Collaborators</label><label class="opt" data-v="residency_or_own_night">Residency / own night</label><label class="opt" data-v="press_radio">Press &amp; radio</label></div></div>
+<div class="row">
+<div class="q" id="q_cap"><label class="t">Headline capacity you're aiming for</label><input type="number" id="headline_capacity" placeholder="e.g. 200"></div>
+<div class="q" id="q_tier"><label class="t">Label tier</label><div class="opts" data-one="tier"><label class="opt"><input type="radio" name="tier" value="diy">DIY</label><label class="opt"><input type="radio" name="tier" value="indie">Indie</label><label class="opt"><input type="radio" name="tier" value="mid">Mid-size</label><label class="opt"><input type="radio" name="tier" value="major">Major</label></div></div>
+</div>
+<div class="q"><label class="t">Target markets (up to three)</label><input type="text" id="markets" placeholder="e.g. New York, Berlin, London"></div>
+</section>
+
+<section><h2>6 · Red lines and capacity</h2>
+<div class="q"><label class="t">Pay-to-play tolerance <span class="req">*</span></label><div class="opts" data-one="p2p">
+<label class="opt"><input type="radio" name="p2p" value="none">None — never</label><label class="opt"><input type="radio" name="p2p" value="small_fees_ok">Small fees OK</label><label class="opt"><input type="radio" name="p2p" value="quotas_ok">Ticket quotas OK</label></div></div>
+<div class="row">
+<div class="q"><label class="t">Age-restricted rooms</label><div class="opts" data-one="age"><label class="opt"><input type="radio" name="age" value="21">21+ is fine</label><label class="opt"><input type="radio" name="age" value="18">18+ only</label><label class="opt"><input type="radio" name="age" value="0">All-ages only</label></div></div>
+<div class="q"><label class="t">Scenes or nights you won't play</label><input type="text" id="avoid" placeholder="comma-separated, e.g. hard techno, battle-of-the-bands"></div>
+</div>
+<div class="row">
+<div class="q"><label class="t">Hours per week for pitching</label><input type="number" id="hours" placeholder="4"></div>
+<div class="q"><label class="t">Monthly budget (your currency)</label><input type="number" id="budget_m" placeholder="100"></div>
+</div>
+<div class="q"><label class="t">Yearly showcase budget</label><input type="number" id="budget_y" placeholder="1500"></div>
+<div class="row">
+<div class="q"><label class="t">Already talking to</label><textarea id="inconv" placeholder="one per line"></textarea></div>
+<div class="q"><label class="t">Never suggest</label><textarea id="dnc" placeholder="one per line"></textarea></div>
+</div>
+</section>
+
+<section><h2>7 · The run</h2>
+<div class="q"><label class="t">Categories to run <span class="req">*</span></label><span class="hint">All that apply are on by default; ones your team already covers are removed when you build.</span><div class="opts" data-many="cats">
+<label class="opt on"><input type="checkbox" value="labels" checked>Labels</label><label class="opt on"><input type="checkbox" value="distributors" checked>Distributors</label><label class="opt on"><input type="checkbox" value="collabs" checked>Collabs</label><label class="opt on"><input type="checkbox" value="open_stages" checked>Open stages</label><label class="opt on"><input type="checkbox" value="festivals" checked>Festivals</label><label class="opt on"><input type="checkbox" value="showcases" checked>Showcases</label><label class="opt on"><input type="checkbox" value="bookers" checked>Bookers</label><label class="opt on"><input type="checkbox" value="promoters" checked>Promoters</label><label class="opt on"><input type="checkbox" value="agents" checked>Agents</label></div></div>
+<div class="q"><label class="t">How deep <span class="req">*</span></label><div class="opts" data-one="depth">
+<label class="opt"><input type="radio" name="depth" value="quick">Quick · 10–15 min · 4 core categories, ~15 records each</label>
+<label class="opt"><input type="radio" name="depth" value="standard">Standard · 25–40 min · all categories, one pass</label>
+<label class="opt"><input type="radio" name="depth" value="deep">Deep · hours · three sweeps + verification of every record</label></div></div>
+<div class="q" id="q_plan"><label class="t">Run it all now, or spread it across sessions?</label><span class="hint">A standard or deep run is a large share of a subscription's usage window.</span><div class="opts" data-one="plan">
+<label class="opt"><input type="radio" name="plan" value="all_now">All now</label><label class="opt"><input type="radio" name="plan" value="batches">Three batches over several sessions</label><label class="opt"><input type="radio" name="plan" value="scheduled">Scheduled task, one batch per run</label></div></div>
+</section>
+
+<div id="out">
+<p class="msg ok">Profile built. Copy it and paste it into your Claude conversation — then Claude skips the interview and starts researching.</p>
+<pre id="json"></pre>
+<div class="paste">Paste this with it: <code>Here is my band-atlas profile. Read prompts/run-in-claude.md in the attached package, skip the interview, confirm the lane, and start with Phase 2.</code></div>
+</div>
+</main>
+<div class="foot"><button class="pri" id="build">Build profile</button><button class="sec hidden" id="copy">Copy JSON</button><button class="sec hidden" id="dl">Download profile.json</button><span class="msg" id="msg"></span></div>
+
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+// theme
+const thm=$("#thm"); function setT(t){document.documentElement.dataset.theme=t; thm.textContent=t==="dark"?"Light":"Dark"; try{localStorage.setItem("atlas-theme",t)}catch(e){}}
+try{setT(localStorage.getItem("atlas-theme")||"dark")}catch(e){setT("dark")}
+thm.onclick=()=>setT(document.documentElement.dataset.theme==="dark"?"light":"dark");
+// chips
+$$(".opts[data-one] .opt").forEach(o=>o.onclick=()=>{o.parentElement.querySelectorAll(".opt").forEach(x=>x.classList.remove("on")); o.classList.add("on"); o.querySelector("input").checked=true; sync();});
+$$(".opts[data-many] .opt").forEach(o=>o.onclick=e=>{e.preventDefault(); const i=o.querySelector("input"); i.checked=!i.checked; o.classList.toggle("on",i.checked); if(i.value==="none"&&i.checked){o.parentElement.querySelectorAll("input").forEach(x=>{if(x.value!=="none"){x.checked=false;x.parentElement.classList.remove("on")}})} sync();});
+// ranked goals
+let goals=[]; $$("#goals .opt").forEach(o=>o.onclick=()=>{const v=o.dataset.v; const i=goals.indexOf(v); if(i>=0) goals.splice(i,1); else goals.push(v); $$("#goals .opt").forEach(x=>{const k=goals.indexOf(x.dataset.v); x.classList.toggle("on",k>=0); }); sync();});
+function one(n){const c=document.querySelector(`input[name=${n}]:checked`); return c?c.value:null}
+function many(n){return $$(`.opts[data-many="${n}"] input:checked`).map(i=>i.value)}
+function lines(id){return $("#"+id).value.split(/\n|,/).map(s=>s.trim()).filter(Boolean)}
+function sync(){ $("#q_cap").style.display=goals.includes("headline_room")?"":"none"; $("#q_tier").style.display=goals.includes("label_deal")?"":"none"; const d=one("depth"); $("#q_plan").style.display=(d==="standard"||d==="deep")?"":"none"; }
+sync();
+function build(){
+  const errs=[]; const refs=lines("refs");
+  const p={artist:$("#artist").value.trim(), lane:$("#lane").value.trim()||"auto", reference_artists:refs};
+  if(!p.artist) errs.push("artist name"); if(refs.length<3||refs.length>5) errs.push("3–5 reference artists");
+  const links={}; if($("#audio").value) links.audio=$("#audio").value; if($("#live_video").value) links.live_video=$("#live_video").value; if(Object.keys(links).length) p.links=links;
+  const fmt=one("format"); if(!fmt) errs.push("live format"); const dj=one("also_djs"); if(dj===null) errs.push("also DJ?"); const rig=many("rig_needs"); if(!rig.length) errs.push("room needs"); const sets=many("set_lengths").map(Number); if(!sets.length) errs.push("set lengths"); const vid=one("has_live_video"); if(vid===null) errs.push("live video?");
+  p.performance={format:fmt, members:+$("#members").value||1, also_djs:dj==="true", rig_needs:rig, set_lengths:sets, has_live_video:vid==="true"};
+  const fly=one("fly"); const rad=one("radius"); if(rad===null) errs.push("travel distance"); if(!$("#city").value.trim()) errs.push("home city"); if($("#country").value.trim().length!==2) errs.push("2-letter country code"); if(fly===null) errs.push("fly for showcase?");
+  p.home={city:$("#city").value.trim(), country:$("#country").value.trim().toUpperCase(), travel_radius_minutes:+rad, will_fly_for_showcase:fly==="true"};
+  const draw=one("draw"); if(draw===null) errs.push("draw"); const cat=one("catalogue"); if(!cat) errs.push("catalogue");
+  const team={}; many("team").forEach(t=>team[t]=true);
+  p.standing={draw_band:+draw, catalogue:cat, team}; const lis=one("listeners"); if(lis!==null) p.standing.listeners_band=+lis; if($("#next_release").value) p.standing.next_release_date=$("#next_release").value;
+  const dance=one("dance"); if(dance!==null) p.standing.needs_dance_store_delivery=dance==="true"; const sp=one("splits"); if(sp!==null) p.standing.has_split_collaborators=sp==="true";
+  if(!goals.length) errs.push("at least one goal"); p.goals=goals.slice();
+  const gd={}; if(goals.includes("headline_room")&&$("#headline_capacity").value) gd.headline_capacity=+$("#headline_capacity").value; if(goals.includes("label_deal")&&one("tier")) gd.label_tier=one("tier"); const mk=lines("markets").slice(0,3); if(mk.length) gd.target_markets=mk; if(Object.keys(gd).length) p.goal_detail=gd;
+  const p2p=one("p2p"); if(!p2p) errs.push("pay-to-play tolerance"); p.red_lines={pay_to_play:p2p}; const age=one("age"); if(age!==null) p.red_lines.min_age_ok=+age; const av=lines("avoid"); if(av.length) p.red_lines.avoid_scenes=av;
+  const cap={}; if($("#hours").value) cap.hours_per_week=+$("#hours").value; if($("#budget_m").value) cap.budget_per_month=+$("#budget_m").value; if($("#budget_y").value) cap.showcase_budget_per_year=+$("#budget_y").value; if(Object.keys(cap).length) p.capacity=cap;
+  const ex={}; const ic=lines("inconv"); if(ic.length) ex.in_conversation_with=ic; const dn=lines("dnc"); if(dn.length) ex.do_not_contact=dn; if(Object.keys(ex).length) p.existing=ex;
+  let cats=many("cats"); if(team.label) cats=cats.filter(c=>c!=="labels"); if(team.distributor) cats=cats.filter(c=>c!=="distributors"); if(team.agent) cats=cats.filter(c=>c!=="agents"); if(!cats.length) errs.push("at least one category"); p.categories=cats;
+  const depth=one("depth"); if(!depth) errs.push("depth"); p.depth=depth;
+  if(depth==="standard"||depth==="deep"){ const pl=one("plan"); if(!pl) errs.push("run now or spread?"); p.run_plan={mode:pl}; if(pl&&pl!=="all_now") p.run_plan.batches=[["open_stages","promoters","collabs"],["labels","distributors","agents"],["festivals","showcases","bookers"]].map(b=>b.filter(c=>cats.includes(c))).filter(b=>b.length); }
+  const m=$("#msg"); if(errs.length){ m.className="msg err"; m.textContent="Still missing: "+errs.join(", "); $("#out").style.display="none"; return; }
+  m.className="msg ok"; m.textContent="Done — scroll down for the JSON."; const txt=JSON.stringify(p,null,2); $("#json").textContent=txt; $("#out").style.display="block"; $("#copy").classList.remove("hidden"); $("#dl").classList.remove("hidden"); window.__profile=txt; $("#out").scrollIntoView({behavior:"smooth"});
+}
+$("#build").onclick=build;
+$("#copy").onclick=async()=>{ try{ await navigator.clipboard.writeText(window.__profile); $("#msg").textContent="Copied. Paste it into Claude."; }catch(e){ const r=document.createRange(); r.selectNodeContents($("#json")); getSelection().removeAllRanges(); getSelection().addRange(r); $("#msg").textContent="Selected — press Ctrl/Cmd+C."; } };
+$("#dl").onclick=()=>{ const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([window.__profile],{type:"application/json"})); a.download="profile.json"; a.click(); };
+</script>
+</body>
+</html>

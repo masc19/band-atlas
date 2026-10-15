@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/band-atlas/record.schema.json",
+  "title": "Atlas record: shared facts plus per-artist judgment",
+  "description": "A record is one label, distributor, collaborator, open stage, festival, showcase, booker, promoter or agent. `facts` is researched once per lane/city/country and cached; it must never contain an opinion about a particular artist. `judgment` is produced per artist profile and is the only part that changes between users.",
+  "type": "object",
+  "required": ["id", "category", "facts"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "category": {"type": "string", "enum": ["labels", "distributors", "collabs", "open_stages", "festivals", "showcases", "bookers", "promoters", "agents", "venues", "markets"]},
+    "facts": {
+      "type": "object",
+      "required": ["name", "status", "act_level", "sources", "seen_date", "verify"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string"},
+        "org": {"type": "string", "description": "Organisation when the record is a person (booker, agent)"},
+        "who": {"type": "string", "description": "Who runs it / key person, from a published source"},
+        "city": {"type": "string"},
+        "country": {"type": "string", "description": "ISO 3166-1 alpha-2"},
+        "region_scope": {"type": "string", "enum": ["local", "national", "international"]},
+        "lane_tags": {"type": "array", "items": {"type": "string"}, "description": "Lane ids this record programs / signs / books"},
+        "roster_trace": {"type": "array", "items": {"type": "string"}, "description": "Named acts that evidence the lane (public roster, lineup, release history)"},
+        "status": {"type": "string", "enum": ["active", "dormant", "folded", "unverified"]},
+        "act_level": {"type": "integer", "minimum": 0, "maximum": 3, "description": "0 closed / n.a. · 1 no open door · 2 submission form · 3 published contact"},
+        "apply_how": {"type": "string"},
+        "contact": {"type": "string", "description": "Published business contact only. Never constructed."},
+        "contact_source": {"type": "string", "description": "Where the contact was published"},
+        "url": {"type": "string"},
+        "links": {"type": "object", "additionalProperties": {"type": "string"}},
+        "when": {"type": "string"},
+        "month": {"type": "integer", "minimum": 1, "maximum": 12},
+        "deadline": {"type": "string"},
+        "cost": {"type": "string"},
+        "cost_amount": {"type": "number", "description": "Year-one cash cost or application fee in USD, when known"},
+        "capacity": {"type": "integer"},
+        "min_draw_band": {"type": "integer", "minimum": 0, "maximum": 4, "description": "Draw band realistically required to be considered (same scale as profile.standing.draw_band)"},
+        "pay_to_play": {"type": "string", "enum": ["no", "fee", "quota", "unknown"]},
+        "min_age": {"type": "integer"},
+        "distance_minutes": {"type": "integer", "description": "Travel time from the run's anchor city (open stages, promoters, venues); filled by research"},
+        "audience_band": {"type": "integer", "minimum": 0, "maximum": 4, "description": "Collabs: audience size band, same scale as profile.standing.listeners_band"},
+        "stage": {
+          "type": "object", "additionalProperties": false,
+          "description": "Open-stage specifics",
+          "properties": {
+            "format": {"type": "string", "enum": ["open_decks", "open_mic", "showcase_apply", "promoter_collective", "direct_booking", "radio_livestream", "scene_networking", "festival_open_call"]},
+            "rig_support": {"type": "integer", "minimum": 0, "maximum": 3, "description": "0 no stage · 1 DJ only · 2 partial (tracks + mic) · 3 full (line-in, mic, DI)"},
+            "sound": {"type": "integer", "minimum": 0, "maximum": 2, "description": "0 basic/unknown · 1 PA + subs · 2 club rig"},
+            "genre_focus": {"type": "integer", "minimum": 0, "maximum": 2, "description": "0 general · 1 lane-friendly · 2 lane-focused"},
+            "set_minutes": {"type": "integer"},
+            "gear": {"type": "string"}
+          }
+        },
+        "distribution": {
+          "type": "object", "additionalProperties": false,
+          "properties": {
+            "model": {"type": "string"},
+            "royalty_share": {"type": "string"},
+            "dance_store_delivery": {"type": "boolean"},
+            "splits_tooling": {"type": "boolean"},
+            "catches": {"type": "string"}
+          }
+        },
+        "summary": {"type": "string", "description": "Neutral description. No artist-specific opinion."},
+        "verify": {"type": "string", "description": "What was checked on official pages, what could not be, which fetches were blocked"},
+        "sources": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "seen_date": {"type": "string", "format": "date"},
+        "fetch_blocked": {"type": "array", "items": {"type": "string"}, "description": "Domains that could not be fetched unattended; route via a browser session next time"}
+      }
+    },
+    "judgment": {
+      "type": "object",
+      "required": ["profile_id", "impact", "fit", "likelihood", "group", "why", "scored_at", "scorer"],
+      "additionalProperties": false,
+      "properties": {
+        "profile_id": {"type": "string"},
+        "impact": {"type": "integer", "minimum": 0, "maximum": 10, "description": "How much this would move the artist if it happened"},
+        "fit": {"type": "integer", "minimum": 0, "maximum": 10, "description": "How naturally the artist's sound and format sit in what this books / signs"},
+        "likelihood": {"type": "integer", "minimum": 0, "maximum": 10, "description": "Odds of a positive outcome at the artist's current stage"},
+        "group": {"type": "string", "enum": ["now", "reach", "attend", "above", "avoid", "dead"]},
+        "why": {"type": "string", "description": "One or two sentences, must cite the profile fields and facts it relies on"},
+        "route": {"type": "string", "description": "The concrete next step, or why there is none"},
+        "flags": {"type": "array", "items": {"type": "string"}},
+        "scored_at": {"type": "string", "format": "date-time"},
+        "scorer": {"type": "string", "description": "mock | model id"}
+      }
+    }
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/band-atlas/profile.schema.json",
+  "title": "Artist profile (intake answers)",
+  "description": "Structured answers from the intake. Every judgment the engine makes is a function of this object and a fact record. Free text is limited to names and links on purpose: structured answers keep the output explainable.",
+  "type": "object",
+  "required": [
+    "artist",
+    "lane",
+    "reference_artists",
+    "performance",
+    "home",
+    "standing",
+    "goals",
+    "red_lines",
+    "categories"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lane": {
+      "type": "string",
+      "description": "Lane id. Derived from reference_artists by the interview (e.g. live-melodic-house-vocal); matches an entry in config/lanes.md only when cached facts are being reused."
+    },
+    "lane_definition": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "The lane as derived from this profile's reference artists. Present whenever the lane is not (yet) cached in config/lanes.md.",
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "reference_artists": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 15,
+          "items": {
+            "type": "string"
+          },
+          "description": "Anchors (the profile's own references) first, then research neighbours"
+        },
+        "adjacent_lanes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "search_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "store_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "reference_artists": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string"
+      }
+    },
+    "genre_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "audio": {
+          "type": "string",
+          "format": "uri"
+        },
+        "live_video": {
+          "type": "string",
+          "format": "uri"
+        },
+        "site": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "performance": {
+      "type": "object",
+      "required": [
+        "format",
+        "members",
+        "also_djs",
+        "rig_needs",
+        "set_lengths",
+        "has_live_video"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "format": {
+          "type": "string",
+          "enum": [
+            "dj",
+            "laptop_live",
+            "laptop_vocal",
+            "laptop_vocal_instrument",
+            "full_band",
+            "acoustic"
+          ]
+        },
+        "members": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12
+        },
+        "also_djs": {
+          "type": "boolean"
+        },
+        "rig_needs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "stereo_line_in",
+              "vocal_mic",
+              "instrument_di",
+              "backline",
+              "cdjs",
+              "none"
+            ]
+          }
+        },
+        "set_lengths": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "enum": [
+              5,
+              15,
+              30,
+              45,
+              60
+            ]
+          }
+        },
+        "has_live_video": {
+          "type": "boolean"
+        }
+      }
+    },
+    "home": {
+      "type": "object",
+      "required": [
+        "city",
+        "country",
+        "travel_radius_minutes",
+        "will_fly_for_showcase"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2"
+        },
+        "travel_radius_minutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "will_fly_for_showcase": {
+          "type": "boolean"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "standing": {
+      "type": "object",
+      "required": [
+        "draw_band",
+        "catalogue",
+        "team"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "draw_band": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4,
+          "description": "0 = none, 1 = <20, 2 = 20–50, 3 = 50–150, 4 = 150+ in home city"
+        },
+        "listeners_band": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4,
+          "description": "0 = <1k, 1 = 1–10k, 2 = 10–50k, 3 = 50–250k, 4 = 250k+ monthly"
+        },
+        "catalogue": {
+          "type": "string",
+          "enum": [
+            "none",
+            "singles",
+            "ep",
+            "album"
+          ]
+        },
+        "next_release_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "team": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "manager": {
+              "type": "boolean"
+            },
+            "label": {
+              "type": "boolean"
+            },
+            "distributor": {
+              "type": "boolean"
+            },
+            "agent": {
+              "type": "boolean"
+            },
+            "publicist": {
+              "type": "boolean"
+            }
+          }
+        },
+        "needs_dance_store_delivery": {
+          "type": "boolean",
+          "description": "Beatport / Traxsource delivery matters (electronic lanes)"
+        },
+        "has_split_collaborators": {
+          "type": "boolean"
+        }
+      }
+    },
+    "goals": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "description": "What the artist wants in the next 12 months. Unordered; the plan in Phase 4 leads with items that serve these.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "headline_room",
+          "label_deal",
+          "booking_agent",
+          "festival_slots",
+          "distribution_deal",
+          "collaborators",
+          "residency_or_own_night",
+          "press_radio"
+        ]
+      }
+    },
+    "goal_detail": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "headline_capacity": {
+          "type": "integer"
+        },
+        "label_tier": {
+          "type": "string",
+          "enum": [
+            "diy",
+            "indie",
+            "mid",
+            "major"
+          ]
+        },
+        "target_markets": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "red_lines": {
+      "type": "object",
+      "required": [
+        "pay_to_play"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "pay_to_play": {
+          "type": "string",
+          "enum": [
+            "none",
+            "small_fees_ok",
+            "quotas_ok"
+          ]
+        },
+        "min_age_ok": {
+          "type": "integer",
+          "description": "Highest age restriction the act can play (e.g. 21)"
+        },
+        "avoid_nights": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "avoid_scenes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "capacity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hours_per_week": {
+          "type": "integer"
+        },
+        "budget_per_month": {
+          "type": "number"
+        },
+        "showcase_budget_per_year": {
+          "type": "number"
+        }
+      }
+    },
+    "existing": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "in_conversation_with": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "do_not_contact": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "labels",
+          "distributors",
+          "collabs",
+          "open_stages",
+          "festivals",
+          "showcases",
+          "bookers",
+          "promoters",
+          "agents",
+          "venues",
+          "markets"
+        ]
+      }
+    },
+    "depth": {
+      "type": "string",
+      "enum": [
+        "quick",
+        "standard",
+        "deep"
+      ],
+      "default": "standard",
+      "description": "How much research to do. quick = one pass, core categories, ~15 records each; standard = one pass, all kept categories, first-run targets; deep = three narrower sweeps per category plus a verification pass on every record"
+    },
+    "run_plan": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "How to spread a standard or deep run across sessions",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "all_now",
+            "batches",
+            "scheduled"
+          ]
+        },
+        "batches": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": "Ordered category batches, e.g. [[open_stages,promoters,collabs],[labels,distributors,agents],[festivals,showcases,bookers]]"
+        },
+        "completed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Categories already researched in earlier sessions"
+        }
+      }
+    }
+  }
+}

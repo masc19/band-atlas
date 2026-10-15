@@ -1,0 +1,114 @@
+[
+ {
+  "id": "symphonic-distribution",
+  "category": "distributors",
+  "facts": {
+   "name": "Symphonic Distribution",
+   "city": "Tampa, Florida, USA",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://symphonic.com/",
+   "cost": "USD 29.99 (Starter, year 1) + USD 10/month Beatport add-on x 12 = USD 120.00. Year-one total = USD 149.99. Royalty splits to both remixers cost USD 0. Streaming royalties kept at 100%, so no commission drag. Highest sticker price of the DIY tier, but the only one where Beatport AND Traxsource both arrive as part of a normal, non-gated product.",
+   "cost_amount": 149.99,
+   "distribution": {
+    "model": "Annual subscription. Starter = USD 29.99/year for one primary artist, unlimited releases, unlimited featuring and remixer artists. Beatport/Traxsource delivery is a 'specialty partner' add-on at USD 10/month on top. Symphonic Partner tier is a custom revenue-share deal, free to distribute, by approval only.",
+    "royalty_share": "100% of DSP streaming royalties on Starter (Symphonic takes no cut of Spotify/Apple/Deezer/Pandora revenue). YouTube Content ID is the exception: 30% collection fee. Partner tier is a negotiated percentage.",
+    "dance_store_delivery": true,
+    "splits_tooling": true,
+    "catches": "Symphonic's FAQ states that a release distributed through Symphonic cannot be re-distributed via another distributor until the end of the contractual term — and the FAQ does NOT state what that term is. The Beatport add-on is a recurring monthly charge that must keep running for the release to stay on Beatport. YouTube Content ID at 30% is a steep collection fee. Starter is capped at one primary artist."
+   },
+   "summary": "The unsigned electronic act that needs genuine Beatport and Traxsource delivery plus free multi-party splits, and is willing to accept an unpublished contract term in exchange.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://symphonic.com/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "distrokid",
+  "category": "distributors",
+  "facts": {
+   "name": "DistroKid",
+   "city": "New York, USA",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://distrokid.com/",
+   "cost": "Musician USD 24.99 (year 1) + Beatport add-on USD 9.99/month x 12 = USD 119.88. Year-one total = USD 144.87. Splits to both remixers cost USD 0. If they want the second artist name (duo alias) on its own profile, Musician Plus instead: USD 44.99 + USD 119.88 = USD 164.87. Note the Beatport add-on is billed monthly and is 4.8x the cost of the base plan itself.",
+   "cost_amount": 144.87,
+   "distribution": {
+    "model": "Annual subscription, unlimited uploads. Musician = USD 24.99/year (1 artist or band). Musician Plus = USD 44.99/year (2 artists or bands). Ultimate = USD 89.99/year (1-100 artists). Beatport is a paid 'Album Extra' at USD 9.99 per month.",
+    "royalty_share": "100%.",
+    "dance_store_delivery": true,
+    "splits_tooling": true,
+    "catches": "Add-ons are individually cheap but priced per song, per album, per year, so a growing catalogue quietly inflates the bill. Musician tier is one artist/band only, which matters if the duo ever wants separate project names. No publishing administration and no Traxsource."
+   },
+   "summary": "Cost-sensitive artists who want the cheapest possible base subscription and free splits, and can stomach paying nearly USD 120/year extra just to reach Beatport.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://distrokid.com/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "tunecore",
+  "category": "distributors",
+  "facts": {
+   "name": "TuneCore",
+   "city": "Brooklyn, New York, USA (owned by Believe, Paris)",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://www.tunecore.com/",
+   "cost": "Rising Artist USD 24.99 (year 1) + Beatport USD 7.99/month billed annually = USD 95.88. Subtotal USD 120.87. Splits require the two remixers to hold accounts: each needs either an Unlimited plan or the Splits Collaborator subscription at USD 7.99/year. If the act covers both: 2 x USD 7.99 = USD 15.98. Year-one total = USD 136.85. Note: TuneCore Splits is unavailable on the pay-per-release model, so the USD 24.99 Single option cannot pay the remixers.",
+   "cost_amount": 136.85,
+   "distribution": {
+    "model": "Hybrid. Unlimited annual plans: Rising Artist USD 24.99/year, Breakout Artist USD 44.99/year, Professional USD 54.99/year (+USD 14.99 per additional artist profile). Pay-per-release alternative: Single USD 24.99 one-time, Album USD 44.99 first year then USD 56.49/year thereafter. Beatport delivery is an extra USD 7.99/month, billed annually, and requires an Unlimited plan.",
+    "royalty_share": "Artists 'keep 100% ownership and control' of recording revenue on the distribution plans. Exception explicitly stated on the pricing page: a 20% fee on social platform earnings (TikTok, Facebook, Instagram, YouTube).",
+    "dance_store_delivery": true,
+    "splits_tooling": true,
+    "catches": "The 20% social-platform fee is a real cut on TikTok/Reels revenue, which is where an emerging act actually gets traction. Album pay-per-release jumps from USD 44.99 to USD 56.49/year after year one. Splits are blocked entirely on pay-per-release. Stop paying and releases come down."
+   },
+   "summary": "Artists who want Believe's infrastructure and a clear upgrade path into Believe artist services, and don't mind their Beatport releases carrying TuneCore's label name.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://www.tunecore.com/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "cd-baby",
+  "category": "distributors",
+  "facts": {
+   "name": "CD Baby",
+   "city": "Portland, Oregon, USA",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://cdbaby.com/",
+   "cost": "Released as one multi-track release (original + 2 remixes): USD 14.99 one-time = year-one total USD 14.99. Released as three separate singles: 3 x USD 9.99 = USD 29.97. Either way, CD Baby then keeps 9% of every dollar of streaming revenue permanently — so at, say, USD 5,000 of lifetime streaming income the real cost is USD 14.99 + USD 450 = USD 464.99, versus USD 149.99/year flat at Symphonic with Beatport included. The commission, not the upfront fee, is the actual price. And none of it reaches Beatport.",
+   "cost_amount": 14.99,
+   "distribution": {
+    "model": "Per-release one-time fee plus permanent commission. Single USD 9.99 one-time. Album USD 14.99 one-time. No annual or subscription fees at all. CD Baby then retains 9% of digital distribution revenue in perpetuity.",
+    "royalty_share": "91% to the artist. CD Baby retains 9% of digital distribution revenue, forever, with no way to buy it out. Paid weekly.",
+    "dance_store_delivery": false,
+    "splits_tooling": false,
+    "catches": "No Beatport at all. No automatic collaborator payment system, so two remixers means manual accounting and manual transfers, which is exactly how relationships with remixers go wrong."
+   },
+   "summary": "Artists who want music online permanently with zero renewal risk and may press physical product — but not electronic acts who need Beatport.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://cdbaby.com/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ }
+]

@@ -1,0 +1,211 @@
+[
+ {
+  "id": "disconnected",
+  "category": "labels",
+  "facts": {
+   "name": "Disconnected",
+   "who": "Jan Blomqvist",
+   "city": "Berlin",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Jan Blomqvist",
+    "Rodriguez Jr.",
+    "BONDI",
+    "Peer Kusiv"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Open connect form",
+   "url": "https://www.janblomqvist.com/connect",
+   "summary": "Boutique–Mid label, est. ~2019; signs EPs and singles from unsigned acts via the demo route.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.janblomqvist.com/connect"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "scissor-thread",
+  "category": "labels",
+  "facts": {
+   "name": "Scissor & Thread",
+   "who": "Frank Wiedemann + co (verify)",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "roster_trace": [
+    "Bob Moses (early home)",
+    "Francesca Lombardo"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Demo via label",
+   "summary": "Boutique label, est. ~2012; signs EPs and singles from unsigned acts via the demo route.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.discogs.com/search/?q=Scissor+&+Thread&type=label"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "anjunadeep",
+  "category": "labels",
+  "facts": {
+   "name": "Anjunadeep",
+   "who": "Above & Beyond + James Grant",
+   "city": "London",
+   "country": "GB",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Lane 8",
+    "Ben Böhmer",
+    "Tinlicker",
+    "Yotto",
+    "Qrion"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Demo portal",
+   "url": "https://anjunadeep.com",
+   "summary": "Major indie label, est. 2005; signs touring acts through management.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://anjunadeep.com"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "afterlife",
+  "category": "labels",
+  "facts": {
+   "name": "Afterlife",
+   "who": "Tale Of Us",
+   "city": "Italy / global",
+   "country": "IT",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Tale Of Us"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Near-closed",
+   "summary": "Major label, est. 2016; signs touring acts through management.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.discogs.com/search/?q=Afterlife&type=label"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "indo-warehouse",
+  "category": "labels",
+  "facts": {
+   "name": "Indo Warehouse",
+   "who": "Kahani & Kunal Merchant",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "'Indo House' — melodic/organic house & techno with live vocals; for fans of Bedouin",
+    "Black Coffee",
+    "the organic lane. Plays Brooklyn Mirage & Avant Gardner."
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Artist intro / indo-warehouse.com",
+   "url": "https://indo-warehouse.com",
+   "summary": "Rising label, est. 2022; signs by artist introduction.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://indo-warehouse.com"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "human-by-default",
+  "category": "labels",
+  "facts": {
+   "name": "Human By Default",
+   "who": "Bedouin (Tamer Malki & Rami Abousabe)",
+   "city": "Brooklyn NYC",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "roster_trace": [
+    "Bedouin",
+    "Santiago Garcia",
+    "Nhii",
+    "Zigan Aldi",
+    "Robin M",
+    "Atsou"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "demos@humanbydefault.us, listed on bedouin.us/info under Demo submissions. Separate promo inbox music@bedouin.us. No form, no LabelRadar.",
+   "url": "https://www.bedouin.us/info",
+   "summary": "Boutique–Mid label, est. ~2020; signs EPs and singles from unsigned acts via the demo route.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.bedouin.us/info"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "crosstown-rebels",
+  "category": "labels",
+  "facts": {
+   "name": "Crosstown Rebels",
+   "who": "Damian Lazarus",
+   "city": "London",
+   "country": "GB",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Damian Lazarus",
+    "Lost Desert",
+    "Raz Alon",
+    "TIMANTI",
+    "MADI",
+    "JUAAN"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "demos@crosstownrebels.com — published on crosstownrebels.com/info. Private SoundCloud links only, no attachments. Licensing: leon@crosstownrebels.com.",
+   "url": "https://www.crosstownrebels.com/info/",
+   "summary": "Mid–Major label, est. ~2003; takes demos via the published email; roster of established and touring acts.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.crosstownrebels.com/info/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ }
+]

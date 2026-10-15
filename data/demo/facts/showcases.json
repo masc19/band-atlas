@@ -1,0 +1,107 @@
+[
+ {
+  "id": "amsterdam-dance-event-ade",
+  "category": "showcases",
+  "facts": {
+   "name": "Amsterdam Dance Event (ADE)",
+   "city": "Amsterdam",
+   "country": "NL",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "No general artist or showcase open call. ADE Arts and Culture accepts project ideas (deadline 10 August 2026 for the 2026 edition). Verified on the official ADE Participate page, August 2026.",
+   "when": "October — 21-25 October 2026 (verified on the official ADE Pro page, August 2026). 2027 dates not yet announced as of August 2026.",
+   "month": 8,
+   "cost": "ADE Pro pass prices are not published on the ADE Pro page (checked August 2026); they are shown only in the ticket shop. Budget separately for Amsterdam accommodation in peak week.",
+   "capacity": 11000,
+   "min_draw_band": 3,
+   "summary": "The largest electronic-music business event in the world: five days, roughly a thousand club, label and showcase events across Amsterdam, wrapped around ADE Pro, the conference and networking layer. Labels, booking agencies, distributors, managers, promoters and streaming staff use it as their annual meeting round.",
+   "verify": "Contact source: IG confirmed in official ADE site footer (Aug 2026); email published on amsterdam.info directory — ADE's own site uses contact forms only",
+   "sources": [
+    "https://www.amsterdam-dance-event.nl/en/ade-pro/",
+    "https://www.amsterdam-dance-event.nl/en/participate/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "reeperbahn-festival",
+  "category": "showcases",
+  "facts": {
+   "name": "Reeperbahn Festival",
+   "city": "Hamburg",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Own web form at reeperbahnfestival.com/en/artist-submission. The window for the following September edition historically opens over winter and early spring. Only successful applicants are contacted.",
+   "when": "September — 16-19 September 2026 (verified on the official artist submission page, August 2026). 2027 dates not yet announced as of August 2026.",
+   "month": 8,
+   "cost": "No application fee stated on the official artist submission page. Delegate ticket prices were not published on the pages checked (August 2026).",
+   "min_draw_band": 2,
+   "summary": "Germany's largest showcase festival plus a substantial industry conference. Several hundred emerging acts across dozens of small Hamburg venues, with a delegate crowd of German and European bookers, festival programmers, publishers and label A and R. The bill skews band and indie, but there is a real live-electronic strand.",
+   "verify": "Contact source: Email, phone and named programming lead verified on official RBX contact page; IG confirmed in official site footer (Aug 2026)",
+   "sources": [
+    "https://www.reeperbahnfestival.com/en/artist-submission",
+    "https://www.reeperbahnfestival.com/en/submissions"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "sxsw",
+  "category": "showcases",
+  "facts": {
+   "name": "SXSW",
+   "city": "Austin, TX",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Open call through cart.sxsw.com. For SXSW 2027: applications opened Tuesday 23 June 2026, the rate increases Tuesday 1 September 2026, and the final deadline is Friday 20 November 2026 (official SXSW deadlines page).",
+   "when": "March — 15-21 March 2027 (verified, official SXSW site).",
+   "month": 3,
+   "cost": "The application fee amount is not published on the official showcase applications page, which states only that the rate increases on 1 September 2026 (checked August 2026). Badge prices not verified.",
+   "capacity": 30000,
+   "min_draw_band": 3,
+   "summary": "A vast multi-industry conference (music, film, tech) with a music festival attached. Showcasing acts play short unpaid sets in Austin venues during the music week, surrounded by an enormous badge-holder crowd.",
+   "verify": "Contact source: IG confirmed in official sxsw.com footer (Aug 2026); no direct email published",
+   "sources": [
+    "https://sxsw.com/apply/showcase-applications/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "mondo-nyc-showcase",
+  "category": "showcases",
+  "facts": {
+   "name": "Mondo.NYC showcase",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Via Groover: mondo.nyc/showcase",
+   "when": "2026 closed (Jun 30) · watch for the 2027 call around spring",
+   "month": 10,
+   "summary": "New York industry conference with showcase slots in front of label, agent and media attendees; applications via a submission platform",
+   "verify": "Application window for the next edition not yet published when checked (Sep 2026)",
+   "sources": [
+    "https://www.mondo.nyc/showcase"
+   ],
+   "seen_date": "2026-09-22"
+  }
+ }
+]

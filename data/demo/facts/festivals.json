@@ -1,0 +1,164 @@
+[
+ {
+  "id": "nachtdigital",
+  "category": "festivals",
+  "facts": {
+   "name": "Nachtdigital",
+   "city": "Olganitz",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "folded",
+   "act_level": 0,
+   "apply_how": "None — the event no longer runs.",
+   "when": "Formerly August. No longer runs.",
+   "month": 8,
+   "cost": "Not applicable.",
+   "min_draw_band": 0,
+   "summary": "FOLDED. A revered small German electronic festival at Bungalowdorf Olganitz that ran from 1997. No successor event was announced.",
+   "verify": "Venue Finder v11",
+   "seen_date": "2026-08-12",
+   "sources": [
+    "https://ra.co/search?searchTerm=Nachtdigital"
+   ]
+  }
+ },
+ {
+  "id": "wilde-moehre-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Wilde Moehre Festival",
+   "city": "Drebkau, Brandenburg",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "The official site links a general participation portal at v.wildemoehre.org/participate covering performers, collectives, service providers and volunteers. No published deadline as of August 2026. This portal URL was cited on the official site but was not independently fetch-verified, so open it from wildemoehrefestival.de rather than trusting a copied link.",
+   "when": "August — 21-24 August 2026, Friday 16:00 to Monday 08:00 (verified, official site). IMPORTANT: the official site describes 2026 as 'the last Wilde Moehre Original' before the festival restructures — verify the format before targeting a future edition.",
+   "month": 8,
+   "cost": "Ticket prices not stated on the official page checked; shuttle passes 10-16 EUR (2026).",
+   "min_draw_band": 2,
+   "summary": "A Brandenburg boutique festival with 12 floors of music plus workshops, lectures, theatre and performance, running around the clock. Organic, melodic and live-leaning electronic programming with a strong arts and community framing.",
+   "verify": "Contact source: IG named in footer of official kontakt page wildemoehrefestival.de/kontakt (Aug 2026)",
+   "sources": [
+    "https://wildemoehrefestival.de/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "elements-music-and-arts-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Elements Music and Arts Festival",
+   "city": "Long Pond, PA",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "No artist application was visible on the official site when checked (August 2026; the homepage returned outdated cached content). The team has historically taken artist submissions through their own channels — verify directly at elementsfest.us before pitching, and pitch the BangOn NYC promoter side in parallel.",
+   "when": "August — 7-9 August 2026 (JamBase and My Modern Met listings, 2026; the official homepage returned stale content when checked in August 2026). 2027 dates not yet announced.",
+   "month": 8,
+   "cost": "Ticket prices not verified on an official page (August 2026).",
+   "min_draw_band": 2,
+   "summary": "A Pennsylvania forest camping festival run by the Elements/BangOn NYC team, with immersive production and a broad electronic bill spanning house, bass and live acts. Strong NYC-metro audience overlap.",
+   "verify": "Contact source: IG named on official Linktree linktr.ee/elementsfestival (Aug 2026); elementsfest.us blocked fetch, no email found",
+   "sources": [
+    "https://www.elementsfest.us/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "governors-ball",
+  "category": "festivals",
+  "facts": {
+   "name": "Governors Ball",
+   "city": "New York, NY (Flushing Meadows Corona Park)",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 0,
+   "apply_how": "No artist application. Agency-booked.",
+   "when": "Historically June. 2027 dates not yet announced as of August 2026.",
+   "month": 6,
+   "cost": "Not verified.",
+   "min_draw_band": 4,
+   "summary": "New York City's largest multi-genre festival, promoted by C3 Presents and Live Nation, with electronic, indie, hip hop and pop programming. All ages.",
+   "verify": "Contact source: IG named on official Linktree linktr.ee/govballnyc (Aug 2026)",
+   "seen_date": "2026-08-12",
+   "sources": [
+    "https://ra.co/search?searchTerm=Governors+Ball"
+   ]
+  }
+ },
+ {
+  "id": "joshua-tree-music-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Joshua Tree Music Festival",
+   "city": "Joshua Tree, CA",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Open artist/band submission form on the Get Involved page; they state they listen to every submission but only reply if a slot opens. No published deadline — submit early for May/Oct 2027.",
+   "when": "Fall edition Oct 8-11, 2026 (verified on official site); spring edition each May, May 2027 dates not yet posted",
+   "month": 5,
+   "capacity": 2,
+   "min_draw_band": 1,
+   "summary": "Twice-yearly independent desert festival blending global, electronic and songwriter acts with a wellness/community layer. Closer to a transformational gathering than a rave.",
+   "verify": "Verified on official site: Oct 8-11 2026 dates and the existence of the open submission process. Direct form URL and deadlines not published on the page fetched; no booking email published. — Contact source: IG named on official contact page joshuatreemusicfestival.com/contact-us (Aug 2026)",
+   "sources": [
+    "https://joshuatreemusicfestival.com/",
+    "https://joshuatreemusicfestival.com/getinvolved/"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ },
+ {
+  "id": "wire-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Wire Festival",
+   "city": "Queens, NY (Knockdown Center)",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Curated; no open call published.",
+   "when": "2026 edition ran May 14-17 at Knockdown Center (verified via venue/press); 2027 not announced",
+   "month": 5,
+   "min_draw_band": 2,
+   "summary": "NYC's leftfield techno/club-culture festival from the 99Scenes/Basement orbit — four days and nights at Knockdown Center.",
+   "verify": "2026 edition and venue verified via Knockdown Center listing and press. Sound-fit judgment is mine, not theirs.",
+   "sources": [
+    "https://www.knockdown.center/event/wire-festival-2026"
+   ],
+   "seen_date": "2026-08-12"
+  }
+ }
+]

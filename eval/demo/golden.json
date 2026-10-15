@@ -1,0 +1,2027 @@
+[
+ {
+  "id": "wasserman-music-now-operating-as-the-team",
+  "category": "agents",
+  "facts": {
+   "name": "Wasserman Music (now operating as THE·TEAM)",
+   "city": "Los Angeles / New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "RÜFÜS DU SOL (signing reported by Rostr)",
+    "Ben Böhmer (agency page existed but now redirects",
+    "his own site currently lists CAA-affiliated agents)",
+    "historically ODESZA and the ex-Paradigm/AM Only electronic roster"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "contact": "Contact form at the.team/music-talent/contact-us/",
+   "url": "https://the.team",
+   "min_draw_band": 4,
+   "summary": "RÜFÜS DU SOL (signing reported by Rostr), Ben Böhmer (agency page existed but now redirects; his own site currently lists CAA-affiliated agents), historically ODESZA and the ex-Paradigm/AM Only electronic roster",
+   "verify": "Verified Aug 2026: artists.teamwass.com now redirects to the.team ('THE·TEAM') — Wasserman's music arm appears to have rebranded/restructured in 2026; confirm current name and agent moves before citing it. RÜFÜS signing verified via Rostr news; Ben Böhmer listing looks stale (his site names CAA-lane agents). — Contact source: the.team music-talent contact page fetched Aug 2026; IG and LinkedIn linked from the.team itself. Rebrand still fresh — re-check name/agents before citing.",
+   "sources": [
+    "https://the.team"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 10,
+   "fit": 5,
+   "likelihood": 0,
+   "group": "above",
+   "why": "Agents want a release, a live video and a draw band ≥ 2.",
+   "route": "No open door — build receipts first.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "tba-agency",
+  "category": "agents",
+  "facts": {
+   "name": "TBA Agency",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Bob Moses",
+    "Tycho",
+    "Caribou",
+    "Daphni",
+    "Yaeji"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "contact": "hello@tbaagency.com",
+   "url": "https://tbaagency.com",
+   "min_draw_band": 3,
+   "summary": "Bob Moses, Tycho, Caribou, Daphni, Yaeji, Poolside, The Presets, Todd Terje, Cut Copy, Hot Chip, Mura Masa (roster page verified Aug 2026)",
+   "verify": "Roster and contact verified from tbaagency.com Aug 2026. Kerala Dust's TBA artist URL now 404s — they may have left; verify before name-dropping. — Contact source: IG confirmed from tbaagency.com contact page (non-IG source), Aug 2026. Agent list is from a third-party directory (artistandfan) of unknown vintage — verify names before addressing anyone directly.",
+   "sources": [
+    "https://tbaagency.com"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 9,
+   "fit": 5,
+   "likelihood": 1,
+   "group": "above",
+   "why": "Agents want a release, a live video and a draw band ≥ 2.",
+   "route": "No open door — build receipts first.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "ground-control-touring",
+  "category": "agents",
+  "facts": {
+   "name": "Ground Control Touring",
+   "city": "New York / Los Angeles",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "126+ acts",
+    "electronic-adjacent wing incl. Boy Harsher",
+    "Black Marble",
+    "Drab Majesty (verified)",
+    "core is indie/alternative"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "contact": "Full agent directory with emails published at groundcontroltouring.com/agents: Eric Dimenstein (President/Co-Founder, Brooklyn) eric@groundcontroltouring.com · Andrew Ellis (Brooklyn) ellis@groundcontroltouring.com · John Chavez (SVP, LA) john@ · Jim Romeo (Co-Founder) jim@",
+   "url": "https://www.groundcontroltouring.com",
+   "min_draw_band": 2,
+   "summary": "126+ acts; electronic-adjacent wing incl. Boy Harsher, Black Marble, Drab Majesty (verified); core is indie/alternative",
+   "verify": "Agency, offices and roster names verified from site Aug 2026. Agents page exists but individual emails not captured; no submission policy published. — Contact source: Agents page quoted directly, Aug 2026. Published business addresses, not a demo inbox — they sign from shows, not submissions.",
+   "sources": [
+    "https://www.groundcontroltouring.com"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 8,
+   "fit": 5,
+   "likelihood": 1,
+   "group": "above",
+   "why": "Agents want a release, a live video and a draw band ≥ 2.",
+   "route": "No open door — build receipts first.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "paladin-artists",
+  "category": "agents",
+  "facts": {
+   "name": "Paladin Artists",
+   "city": "New York / Los Angeles / London",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Music",
+    "DJs",
+    "comedy and speakers divisions",
+    "music roster incl. A Place To Bury Strangers",
+    "10"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "contact": "Booking form on site · +1 917-277-3384 · Booking form and phone 917-277-3384 re-confirmed",
+   "url": "https://www.paladinartists.com",
+   "min_draw_band": 2,
+   "summary": "Music, DJs, comedy and speakers divisions; music roster incl. A Place To Bury Strangers, 10,000 Maniacs (verified); dedicated DJ category",
+   "verify": "Offices, divisions, form and phone verified from site Aug 2026. No melodic-house names visible on roster — fit is structural (accessible NY/London indie with DJ division), not scene-based. — Contact source: Form, phone and IG from paladinartists.com, Aug 2026. No individual agent emails published.",
+   "sources": [
+    "https://www.paladinartists.com"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 8,
+   "fit": 5,
+   "likelihood": 1,
+   "group": "above",
+   "why": "Agents want a release, a live video and a draw band ≥ 2.",
+   "route": "No open door — build receipts first.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "rob-toma",
+  "category": "bookers",
+  "facts": {
+   "name": "Rob Toma",
+   "org": "Teksupport",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "url": "https://teksupport.nyc",
+   "min_draw_band": 4,
+   "summary": "Large-scale NYC warehouse shows and club takeovers (Circoloco, Afterlife, Keinemusik brand nights); books touring headline electronic acts, not openers from the local pool",
+   "verify": "Rob Toma confirmed founder; no published booking email — Teksupport books via agents/promoter network only — Toma as founder verified via Forbes profile (Jan 2024) and Billboard feature (2024); Mixmag feature on Teksupport's NYC dominance. Role current as of 2024 press — verify still active but company clearly operating. — Contact source: Founder role per Billboard feature (2023) and Forbes (Jan 2024); personal IG @robtnyc surfaced in Aug 2026 search results (org account @teksupport). No 2026 personnel change found — verify at pitch time.",
+   "sources": [
+    "https://teksupport.nyc"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 10,
+   "fit": 5,
+   "likelihood": 1,
+   "group": "above",
+   "why": "Books acts at draw band 4; you're at 1; no open door; same city.",
+   "route": "Be visible on the bills that feed their undercards.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "todd-patrick-todd-p",
+  "category": "bookers",
+  "facts": {
+   "name": "Todd Patrick (Todd P)",
+   "org": "Market Hotel / Trans-Pecos (independent promoter)",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "contact": "booking@markethotel.org (concerts, pre-11pm) · nightlife@markethotel.org (late-night) · info@markethotel.org (general)",
+   "contact_source": "Published booking address / form on the organisation's site",
+   "url": "https://en.wikipedia.org/wiki/Todd_Patrick",
+   "min_draw_band": 1,
+   "summary": "DIY and independent shows across multiple Brooklyn/Queens rooms (Market Hotel, Trans-Pecos, one-off spaces); emerging live acts of all genres including electronic-leaning bills",
+   "verify": "Role as promoter behind Market Hotel/Trans-Pecos verified via Wikipedia and long press history (Fader, Brooklyn Vegan). Long-standing and still operating; specific submission emails not republished here — use venues' published booking channels. — Contact source: Emails and IG fetched directly from markethotel.org/contact, Aug 2026 — current.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Todd_Patrick"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 6,
+   "fit": 8,
+   "likelihood": 8,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Use the published route.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "adhoc-presents-booking-desk",
+  "category": "bookers",
+  "facts": {
+   "name": "AdHoc Presents booking desk",
+   "org": "AdHoc",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "contact": "Contact form at adhoc.fm/about",
+   "contact_source": "Published booking address / form on the organisation's site",
+   "url": "https://adhoc.fm/about/",
+   "min_draw_band": 1,
+   "summary": "Independent shows across Brooklyn venues (formerly Market Hotel, Elsewhere rooms, others); emerging indie and electronic live acts",
+   "verify": "Active promoter verified via RA promoter page and adhoc.fm events page (fetched Aug 2026 — form confirmed, no named booker published). — Contact source: Handle matches X @adhocfm and Facebook page (non-IG corroboration, Aug 2026). No staff names surfaced in trade press.",
+   "sources": [
+    "https://adhoc.fm/about/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 6,
+   "fit": 8,
+   "likelihood": 8,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Use the published route.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "half-moon-bk-desk",
+  "category": "bookers",
+  "facts": {
+   "name": "Half Moon BK desk",
+   "org": "Half Moon",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "contact": "link@halfmoonbk.com",
+   "contact_source": "Published booking address / form on the organisation's site",
+   "url": "https://www.halfmoonbk.com/about/",
+   "min_draw_band": 1,
+   "summary": "Independent radio schedule, residencies and IRL events covering emerging NYC club culture",
+   "verify": "Email and mission ('radio, events, editorial') verified from halfmoonbk.com/about, fetched Aug 2026. Highsnobiety profile corroborates. No individual curator named publicly. — Contact source: Email + IG fetched from halfmoonbk.com/about, Aug 2026; Mixcloud (HalfMoonbk) corroborates handle.",
+   "sources": [
+    "https://www.halfmoonbk.com/about/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 6,
+   "fit": 5,
+   "likelihood": 9,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Use the published route.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "symphonic-distribution",
+  "category": "distributors",
+  "facts": {
+   "name": "Symphonic Distribution",
+   "city": "Tampa, Florida, USA",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://symphonic.com/",
+   "cost": "USD 29.99 (Starter, year 1) + USD 10/month Beatport add-on x 12 = USD 120.00. Year-one total = USD 149.99. Royalty splits to both remixers cost USD 0. Streaming royalties kept at 100%, so no commission drag. Highest sticker price of the DIY tier, but the only one where Beatport AND Traxsource both arrive as part of a normal, non-gated product.",
+   "cost_amount": 149.99,
+   "distribution": {
+    "model": "Annual subscription. Starter = USD 29.99/year for one primary artist, unlimited releases, unlimited featuring and remixer artists. Beatport/Traxsource delivery is a 'specialty partner' add-on at USD 10/month on top. Symphonic Partner tier is a custom revenue-share deal, free to distribute, by approval only.",
+    "royalty_share": "100% of DSP streaming royalties on Starter (Symphonic takes no cut of Spotify/Apple/Deezer/Pandora revenue). YouTube Content ID is the exception: 30% collection fee. Partner tier is a negotiated percentage.",
+    "dance_store_delivery": true,
+    "splits_tooling": true,
+    "catches": "Symphonic's FAQ states that a release distributed through Symphonic cannot be re-distributed via another distributor until the end of the contractual term — and the FAQ does NOT state what that term is. The Beatport add-on is a recurring monthly charge that must keep running for the release to stay on Beatport. YouTube Content ID at 30% is a steep collection fee. Starter is capped at one primary artist."
+   },
+   "summary": "The unsigned electronic act that needs genuine Beatport and Traxsource delivery plus free multi-party splits, and is willing to accept an unpublished contract term in exchange.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://symphonic.com/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 10,
+   "likelihood": 8,
+   "group": "now",
+   "why": "You need Beatport/Traxsource delivery.",
+   "route": "Self-serve sign-up",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "distrokid",
+  "category": "distributors",
+  "facts": {
+   "name": "DistroKid",
+   "city": "New York, USA",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://distrokid.com/",
+   "cost": "Musician USD 24.99 (year 1) + Beatport add-on USD 9.99/month x 12 = USD 119.88. Year-one total = USD 144.87. Splits to both remixers cost USD 0. If they want the second artist name (duo alias) on its own profile, Musician Plus instead: USD 44.99 + USD 119.88 = USD 164.87. Note the Beatport add-on is billed monthly and is 4.8x the cost of the base plan itself.",
+   "cost_amount": 144.87,
+   "distribution": {
+    "model": "Annual subscription, unlimited uploads. Musician = USD 24.99/year (1 artist or band). Musician Plus = USD 44.99/year (2 artists or bands). Ultimate = USD 89.99/year (1-100 artists). Beatport is a paid 'Album Extra' at USD 9.99 per month.",
+    "royalty_share": "100%.",
+    "dance_store_delivery": true,
+    "splits_tooling": true,
+    "catches": "Add-ons are individually cheap but priced per song, per album, per year, so a growing catalogue quietly inflates the bill. Musician tier is one artist/band only, which matters if the duo ever wants separate project names. No publishing administration and no Traxsource."
+   },
+   "summary": "Cost-sensitive artists who want the cheapest possible base subscription and free splits, and can stomach paying nearly USD 120/year extra just to reach Beatport.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://distrokid.com/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 10,
+   "likelihood": 8,
+   "group": "now",
+   "why": "You need Beatport/Traxsource delivery.",
+   "route": "Self-serve sign-up",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "tunecore",
+  "category": "distributors",
+  "facts": {
+   "name": "TuneCore",
+   "city": "Brooklyn, New York, USA (owned by Believe, Paris)",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://www.tunecore.com/",
+   "cost": "Rising Artist USD 24.99 (year 1) + Beatport USD 7.99/month billed annually = USD 95.88. Subtotal USD 120.87. Splits require the two remixers to hold accounts: each needs either an Unlimited plan or the Splits Collaborator subscription at USD 7.99/year. If the act covers both: 2 x USD 7.99 = USD 15.98. Year-one total = USD 136.85. Note: TuneCore Splits is unavailable on the pay-per-release model, so the USD 24.99 Single option cannot pay the remixers.",
+   "cost_amount": 136.85,
+   "distribution": {
+    "model": "Hybrid. Unlimited annual plans: Rising Artist USD 24.99/year, Breakout Artist USD 44.99/year, Professional USD 54.99/year (+USD 14.99 per additional artist profile). Pay-per-release alternative: Single USD 24.99 one-time, Album USD 44.99 first year then USD 56.49/year thereafter. Beatport delivery is an extra USD 7.99/month, billed annually, and requires an Unlimited plan.",
+    "royalty_share": "Artists 'keep 100% ownership and control' of recording revenue on the distribution plans. Exception explicitly stated on the pricing page: a 20% fee on social platform earnings (TikTok, Facebook, Instagram, YouTube).",
+    "dance_store_delivery": true,
+    "splits_tooling": true,
+    "catches": "The 20% social-platform fee is a real cut on TikTok/Reels revenue, which is where an emerging act actually gets traction. Album pay-per-release jumps from USD 44.99 to USD 56.49/year after year one. Splits are blocked entirely on pay-per-release. Stop paying and releases come down."
+   },
+   "summary": "Artists who want Believe's infrastructure and a clear upgrade path into Believe artist services, and don't mind their Beatport releases carrying TuneCore's label name.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://www.tunecore.com/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 10,
+   "likelihood": 8,
+   "group": "now",
+   "why": "You need Beatport/Traxsource delivery.",
+   "route": "Self-serve sign-up",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "cd-baby",
+  "category": "distributors",
+  "facts": {
+   "name": "CD Baby",
+   "city": "Portland, Oregon, USA",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Self-serve sign-up",
+   "url": "https://cdbaby.com/",
+   "cost": "Released as one multi-track release (original + 2 remixes): USD 14.99 one-time = year-one total USD 14.99. Released as three separate singles: 3 x USD 9.99 = USD 29.97. Either way, CD Baby then keeps 9% of every dollar of streaming revenue permanently — so at, say, USD 5,000 of lifetime streaming income the real cost is USD 14.99 + USD 450 = USD 464.99, versus USD 149.99/year flat at Symphonic with Beatport included. The commission, not the upfront fee, is the actual price. And none of it reaches Beatport.",
+   "cost_amount": 14.99,
+   "distribution": {
+    "model": "Per-release one-time fee plus permanent commission. Single USD 9.99 one-time. Album USD 14.99 one-time. No annual or subscription fees at all. CD Baby then retains 9% of digital distribution revenue in perpetuity.",
+    "royalty_share": "91% to the artist. CD Baby retains 9% of digital distribution revenue, forever, with no way to buy it out. Paid weekly.",
+    "dance_store_delivery": false,
+    "splits_tooling": false,
+    "catches": "No Beatport at all. No automatic collaborator payment system, so two remixers means manual accounting and manual transfers, which is exactly how relationships with remixers go wrong."
+   },
+   "summary": "Artists who want music online permanently with zero renewal risk and may press physical product — but not electronic acts who need Beatport.",
+   "verify": "Pricing and partner-store delivery read from the distributor's own pricing and partner pages (Aug 2026); prices change — re-check before signing up",
+   "sources": [
+    "https://cdbaby.com/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 1,
+   "likelihood": 8,
+   "group": "avoid",
+   "why": "You need Beatport/Traxsource delivery and this one doesn't deliver there.",
+   "route": "Self-serve sign-up",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "nachtdigital",
+  "category": "festivals",
+  "facts": {
+   "name": "Nachtdigital",
+   "city": "Olganitz",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "folded",
+   "act_level": 0,
+   "apply_how": "None — the event no longer runs.",
+   "when": "Formerly August. No longer runs.",
+   "month": 8,
+   "cost": "Not applicable.",
+   "min_draw_band": 0,
+   "summary": "FOLDED. A revered small German electronic festival at Bungalowdorf Olganitz that ran from 1997. No successor event was announced.",
+   "verify": "Venue Finder v11",
+   "seen_date": "2026-08-12",
+   "sources": [
+    "https://ra.co/search?searchTerm=Nachtdigital"
+   ]
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 0,
+   "fit": 0,
+   "likelihood": 0,
+   "group": "dead",
+   "why": "Nachtdigital is folded per https://ra.co/search?searchTerm=Nachtdigital.",
+   "route": "Do not pitch.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "wilde-moehre-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Wilde Moehre Festival",
+   "city": "Drebkau, Brandenburg",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "The official site links a general participation portal at v.wildemoehre.org/participate covering performers, collectives, service providers and volunteers. No published deadline as of August 2026. This portal URL was cited on the official site but was not independently fetch-verified, so open it from wildemoehrefestival.de rather than trusting a copied link.",
+   "when": "August — 21-24 August 2026, Friday 16:00 to Monday 08:00 (verified, official site). IMPORTANT: the official site describes 2026 as 'the last Wilde Moehre Original' before the festival restructures — verify the format before targeting a future edition.",
+   "month": 8,
+   "cost": "Ticket prices not stated on the official page checked; shuttle passes 10-16 EUR (2026).",
+   "min_draw_band": 2,
+   "summary": "A Brandenburg boutique festival with 12 floors of music plus workshops, lectures, theatre and performance, running around the clock. Organic, melodic and live-leaning electronic programming with a strong arts and community framing.",
+   "verify": "Contact source: IG named in footer of official kontakt page wildemoehrefestival.de/kontakt (Aug 2026)",
+   "sources": [
+    "https://wildemoehrefestival.de/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 8,
+   "likelihood": 2,
+   "group": "above",
+   "why": "No live video; wants draw band 2; you're at 1; outside your travel radius and you won't fly.",
+   "route": "The official site links a general participation portal at v.wildemoehre.org/participate covering performers, collectives, service providers and volunteers. No published deadline as of August 2026. This portal URL was cited on the official site but was not independently fetch-verified, so open it from wildemoehrefestival.de rather than trusting a copied link.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "elements-music-and-arts-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Elements Music and Arts Festival",
+   "city": "Long Pond, PA",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "No artist application was visible on the official site when checked (August 2026; the homepage returned outdated cached content). The team has historically taken artist submissions through their own channels — verify directly at elementsfest.us before pitching, and pitch the BangOn NYC promoter side in parallel.",
+   "when": "August — 7-9 August 2026 (JamBase and My Modern Met listings, 2026; the official homepage returned stale content when checked in August 2026). 2027 dates not yet announced.",
+   "month": 8,
+   "cost": "Ticket prices not verified on an official page (August 2026).",
+   "min_draw_band": 2,
+   "summary": "A Pennsylvania forest camping festival run by the Elements/BangOn NYC team, with immersive production and a broad electronic bill spanning house, bass and live acts. Strong NYC-metro audience overlap.",
+   "verify": "Contact source: IG named on official Linktree linktr.ee/elementsfestival (Aug 2026); elementsfest.us blocked fetch, no email found",
+   "sources": [
+    "https://www.elementsfest.us/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 8,
+   "likelihood": 2,
+   "group": "above",
+   "why": "No live video; wants draw band 2; you're at 1.",
+   "route": "No artist application was visible on the official site when checked (August 2026; the homepage returned outdated cached content). The team has historically taken artist submissions through their own channels — verify directly at elementsfest.us before pitching, and pitch the BangOn NYC promoter side in parallel.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "governors-ball",
+  "category": "festivals",
+  "facts": {
+   "name": "Governors Ball",
+   "city": "New York, NY (Flushing Meadows Corona Park)",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 0,
+   "apply_how": "No artist application. Agency-booked.",
+   "when": "Historically June. 2027 dates not yet announced as of August 2026.",
+   "month": 6,
+   "cost": "Not verified.",
+   "min_draw_band": 4,
+   "summary": "New York City's largest multi-genre festival, promoted by C3 Presents and Live Nation, with electronic, indie, hip hop and pop programming. All ages.",
+   "verify": "Contact source: IG named on official Linktree linktr.ee/govballnyc (Aug 2026)",
+   "seen_date": "2026-08-12",
+   "sources": [
+    "https://ra.co/search?searchTerm=Governors+Ball"
+   ]
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 8,
+   "likelihood": 0,
+   "group": "above",
+   "why": "No live video; wants draw band 4; you're at 1.",
+   "route": "No artist application. Agency-booked.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "joshua-tree-music-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Joshua Tree Music Festival",
+   "city": "Joshua Tree, CA",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Open artist/band submission form on the Get Involved page; they state they listen to every submission but only reply if a slot opens. No published deadline — submit early for May/Oct 2027.",
+   "when": "Fall edition Oct 8-11, 2026 (verified on official site); spring edition each May, May 2027 dates not yet posted",
+   "month": 5,
+   "capacity": 2,
+   "min_draw_band": 1,
+   "summary": "Twice-yearly independent desert festival blending global, electronic and songwriter acts with a wellness/community layer. Closer to a transformational gathering than a rave.",
+   "verify": "Verified on official site: Oct 8-11 2026 dates and the existence of the open submission process. Direct form URL and deadlines not published on the page fetched; no booking email published. — Contact source: IG named on official contact page joshuatreemusicfestival.com/contact-us (Aug 2026)",
+   "sources": [
+    "https://joshuatreemusicfestival.com/",
+    "https://joshuatreemusicfestival.com/getinvolved/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 8,
+   "likelihood": 4,
+   "group": "reach",
+   "why": "No live video.",
+   "route": "Open artist/band submission form on the Get Involved page; they state they listen to every submission but only reply if a slot opens. No published deadline — submit early for May/Oct 2027.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "wire-festival",
+  "category": "festivals",
+  "facts": {
+   "name": "Wire Festival",
+   "city": "Queens, NY (Knockdown Center)",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Curated; no open call published.",
+   "when": "2026 edition ran May 14-17 at Knockdown Center (verified via venue/press); 2027 not announced",
+   "month": 5,
+   "min_draw_band": 2,
+   "summary": "NYC's leftfield techno/club-culture festival from the 99Scenes/Basement orbit — four days and nights at Knockdown Center.",
+   "verify": "2026 edition and venue verified via Knockdown Center listing and press. Sound-fit judgment is mine, not theirs.",
+   "sources": [
+    "https://www.knockdown.center/event/wire-festival-2026"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 8,
+   "likelihood": 2,
+   "group": "above",
+   "why": "No live video; wants draw band 2; you're at 1.",
+   "route": "Curated; no open call published.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "disconnected",
+  "category": "labels",
+  "facts": {
+   "name": "Disconnected",
+   "who": "Jan Blomqvist",
+   "city": "Berlin",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Jan Blomqvist",
+    "Rodriguez Jr.",
+    "BONDI",
+    "Peer Kusiv"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Open connect form",
+   "url": "https://www.janblomqvist.com/connect",
+   "summary": "Boutique–Mid label, est. ~2019; signs EPs and singles from unsigned acts via the demo route.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.janblomqvist.com/connect"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 7,
+   "fit": 5,
+   "likelihood": 4,
+   "group": "reach",
+   "why": "They sign at EP stage; you're at singles.",
+   "route": "Open connect form",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "scissor-thread",
+  "category": "labels",
+  "facts": {
+   "name": "Scissor & Thread",
+   "who": "Frank Wiedemann + co (verify)",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "roster_trace": [
+    "Bob Moses (early home)",
+    "Francesca Lombardo"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Demo via label",
+   "summary": "Boutique label, est. ~2012; signs EPs and singles from unsigned acts via the demo route.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.discogs.com/search/?q=Scissor+&+Thread&type=label"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 8,
+   "likelihood": 6,
+   "group": "now",
+   "why": "They sign at EP stage; you're at singles.",
+   "route": "Demo via label",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "anjunadeep",
+  "category": "labels",
+  "facts": {
+   "name": "Anjunadeep",
+   "who": "Above & Beyond + James Grant",
+   "city": "London",
+   "country": "GB",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Lane 8",
+    "Ben Böhmer",
+    "Tinlicker",
+    "Yotto",
+    "Qrion"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Demo portal",
+   "url": "https://anjunadeep.com",
+   "summary": "Major indie label, est. 2005; signs touring acts through management.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://anjunadeep.com"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 8,
+   "fit": 5,
+   "likelihood": 2,
+   "group": "above",
+   "why": "They sign at touring stage; you're at singles.",
+   "route": "Demo portal",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "afterlife",
+  "category": "labels",
+  "facts": {
+   "name": "Afterlife",
+   "who": "Tale Of Us",
+   "city": "Italy / global",
+   "country": "IT",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Tale Of Us"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Near-closed",
+   "summary": "Major label, est. 2016; signs touring acts through management.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.discogs.com/search/?q=Afterlife&type=label"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 8,
+   "fit": 5,
+   "likelihood": 0,
+   "group": "above",
+   "why": "They sign at touring stage; you're at singles.",
+   "route": "Near-closed",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "indo-warehouse",
+  "category": "labels",
+  "facts": {
+   "name": "Indo Warehouse",
+   "who": "Kahani & Kunal Merchant",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "'Indo House' — melodic/organic house & techno with live vocals; for fans of Bedouin",
+    "Black Coffee",
+    "the organic lane. Plays Brooklyn Mirage & Avant Gardner."
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Artist intro / indo-warehouse.com",
+   "url": "https://indo-warehouse.com",
+   "summary": "Rising label, est. 2022; signs by artist introduction.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://indo-warehouse.com"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 5,
+   "likelihood": 4,
+   "group": "reach",
+   "why": "Meets the rubric with no blocking gap.",
+   "route": "Artist intro / indo-warehouse.com",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "human-by-default",
+  "category": "labels",
+  "facts": {
+   "name": "Human By Default",
+   "who": "Bedouin (Tamer Malki & Rami Abousabe)",
+   "city": "Brooklyn NYC",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "roster_trace": [
+    "Bedouin",
+    "Santiago Garcia",
+    "Nhii",
+    "Zigan Aldi",
+    "Robin M",
+    "Atsou"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "demos@humanbydefault.us, listed on bedouin.us/info under Demo submissions. Separate promo inbox music@bedouin.us. No form, no LabelRadar.",
+   "url": "https://www.bedouin.us/info",
+   "summary": "Boutique–Mid label, est. ~2020; signs EPs and singles from unsigned acts via the demo route.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.bedouin.us/info"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 7,
+   "fit": 8,
+   "likelihood": 6,
+   "group": "now",
+   "why": "They sign at EP stage; you're at singles.",
+   "route": "demos@humanbydefault.us, listed on bedouin.us/info under Demo submissions. Separate promo inbox music@bedouin.us. No form, no LabelRadar.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "crosstown-rebels",
+  "category": "labels",
+  "facts": {
+   "name": "Crosstown Rebels",
+   "who": "Damian Lazarus",
+   "city": "London",
+   "country": "GB",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "roster_trace": [
+    "Damian Lazarus",
+    "Lost Desert",
+    "Raz Alon",
+    "TIMANTI",
+    "MADI",
+    "JUAAN"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "demos@crosstownrebels.com — published on crosstownrebels.com/info. Private SoundCloud links only, no attachments. Licensing: leon@crosstownrebels.com.",
+   "url": "https://www.crosstownrebels.com/info/",
+   "summary": "Mid–Major label, est. ~2003; takes demos via the published email; roster of established and touring acts.",
+   "verify": "Demo route and roster checked on the label's own site or official listing (Aug 2026)",
+   "sources": [
+    "https://www.crosstownrebels.com/info/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 10,
+   "fit": 5,
+   "likelihood": 4,
+   "group": "reach",
+   "why": "They sign at touring stage; you're at singles.",
+   "route": "demos@crosstownrebels.com — published on crosstownrebels.com/info. Private SoundCloud links only, no attachments. Licensing: leon@crosstownrebels.com.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "beem",
+  "category": "open_stages",
+  "facts": {
+   "name": "BEEM Artist Showcase @ Wonderville",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Sign-up form: forms.gle/vXfFDuwJYfg7ebwf7 · Meetup: BEEM group (2,380 members) · Discord",
+   "when": "Monthly Thu 7–11pm · Sep 24, Oct 22",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 3,
+    "sound": 1,
+    "genre_focus": 2,
+    "set_minutes": 30,
+    "gear": "QSC PA + sub, Behringer X32, SM58/57s, stereo + mono DIs, guitar amps, CDJs, projector. Stage 10×7 ft, 75 cap."
+   },
+   "summary": "Brooklyn · Showcase (apply) · slot: About 30–45 min (4 acts per night)",
+   "verify": "Sound: QSC PA + subwoofer, X32. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://forms.gle/vXfFDuwJYfg7ebwf7",
+    "https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/",
+    "https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 7,
+   "fit": 10,
+   "likelihood": 6,
+   "group": "now",
+   "why": "Application-based and you have no live video yet; same city.",
+   "route": "Sign-up form: forms.gle/vXfFDuwJYfg7ebwf7 · Meetup: BEEM group (2,380 members) · Discord",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "patchbay",
+  "category": "open_stages",
+  "facts": {
+   "name": "PATCHBAY (New York Modular Society)",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "\"Play a Patchbay\" form on patchbay.nyc (name, IG, track or set sample)",
+   "when": "Monthly Sat 3–7pm · #34 on Oct 3 (NYMS 7th anniversary)",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 2,
+    "sound": 0,
+    "genre_focus": 2,
+    "set_minutes": 30,
+    "gear": "PA not listed . Contact tim@timcox.co for logistics."
+   },
+   "summary": "Brooklyn · Showcase (apply) · slot: 4–5 acts per edition, about 30–40 min",
+   "verify": "Sound: Not listed. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.patchbay.nyc/",
+    "https://www.patchbay.nyc/"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 5,
+   "likelihood": 6,
+   "group": "now",
+   "why": "Rig support 2 is below what your full band set needs; application-based and you have no live video yet; same city.",
+   "route": "\"Play a Patchbay\" form on patchbay.nyc (name, IG, track or set sample)",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "eris",
+  "category": "open_stages",
+  "facts": {
+   "name": "Eris Open Decks",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "In person at the event only (no email or DMs). Slots book 2–4 weeks out. erisevolution.com/opendecks · IG @opendeckseris",
+   "when": "Every Wednesday, two floors",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "open_decks",
+    "rig_support": 2,
+    "sound": 2,
+    "genre_focus": 2,
+    "gear": "Funktion-One, CDJ-3000s, SL-1200s. Live and analog sets allowed with approval."
+   },
+   "summary": "Brooklyn · Open decks · slot: 1 hour per DJ per floor",
+   "verify": "Sound: Funktion-One. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.erisevolution.com/opendecks/",
+    "https://www.erisevolution.com/opendecks/"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 9,
+   "fit": 7,
+   "likelihood": 8,
+   "group": "now",
+   "why": "Rig support 2 is below what your full band set needs; same city.",
+   "route": "In person at the event only (no email or DMs). Slots book 2–4 weeks out. erisevolution.com/opendecks · IG @opendeckseris",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "heaven-can-wait-group",
+  "category": "open_stages",
+  "facts": {
+   "name": "Berlin / Heaven Can Wait / Bowery Palace",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "One email reaches all three: booking@heavencanwaitnyc.com (forwarded to the Berlin and Bowery buyers). Alternatives: berlinundera@gmail.com, booking@bowerypalace.com",
+   "when": "Emerging bills most nights",
+   "distance_minutes": 25,
+   "min_age": 21,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "direct_booking",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 25,
+    "gear": "Full PA + backline. Bowery Palace: 3 stages, DJ gear included. 21+."
+   },
+   "summary": "Manhattan · Direct booking · slot: 25–40 min on multi-act bills",
+   "verify": "Sound: Rock-club PA; Bowery Palace adds DJ gear.",
+   "sources": [
+    "https://heavencanwaitnyc.com/"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 3,
+   "fit": 1,
+   "likelihood": 8,
+   "group": "attend",
+   "why": "Same city.",
+   "route": "One email reaches all three: booking@heavencanwaitnyc.com (forwarded to the Berlin and Bowery buyers). Alternatives: berlinundera@gmail.com, booking@bowerypalace.com",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "pianos",
+  "category": "open_stages",
+  "facts": {
+   "name": "Pianos (+ promoter series)",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "indie-electronic"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Bands: booking@pianosnyc.com · DJ sets: dj@pianosnyc.com · Faster route: pitch the promoters FOUR NEW YORK, ZeroZero Presents or Stereo Mandrax",
+   "when": "Emerging bills nightly · booked into Nov 2026",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "direct_booking",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 1,
+    "set_minutes": 25,
+    "gear": "Two rooms with DJ culture, so laptop + stereo DI is normal."
+   },
+   "summary": "Manhattan · Direct booking · slot: 25–40 min",
+   "verify": "Sound: Standard club PA (brand unconfirmed). — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://pianosnyc.com/"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 4,
+   "fit": 5,
+   "likelihood": 8,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Bands: booking@pianosnyc.com · DJ sets: dj@pianosnyc.com · Faster route: pitch the promoters FOUR NEW YORK, ZeroZero Presents or Stereo Mandrax",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "sofar",
+  "category": "open_stages",
+  "facts": {
+   "name": "Sofar Sounds NYC",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Form only: sofarsounds.com/about/artists. Judged solely on 1–3 live videos.",
+   "when": "Weekly shows · replies take 8–12 weeks",
+   "distance_minutes": 20,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 2,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 20,
+    "gear": "PA varies and is often minimal."
+   },
+   "summary": "NYC-wide · Showcase (apply) · slot: 20–25 min, 3 acts",
+   "verify": "Sound: Varies, often minimal.",
+   "sources": [
+    "https://www.sofarsounds.com/about/artists",
+    "https://www.sofarsounds.com/about/artists"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 3,
+   "fit": 1,
+   "likelihood": 6,
+   "group": "attend",
+   "why": "Rig support 2 is below what your full band set needs; application-based and you have no live video yet; same city.",
+   "route": "Form only: sofarsounds.com/about/artists. Judged solely on 1–3 live videos.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "stella",
+  "category": "open_stages",
+  "facts": {
+   "name": "Stella Blues · Tuesday Open Mic",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "In person, first come first served",
+   "when": "Weekly Tue · sign-up 8:30pm",
+   "distance_minutes": 150,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "open_mic",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 10,
+    "gear": "Full backline + mics. Line input ; bring DIs."
+   },
+   "summary": "Connecticut · Open mic · slot: 10–15 min",
+   "verify": "Sound: Band PA. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.stellabluesnewhaven.com/"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 0,
+   "fit": 0,
+   "likelihood": 0,
+   "group": "avoid",
+   "why": "150 min away; your radius is 90 min.",
+   "route": "Revisit if you extend your radius.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "emergenza",
+  "category": "open_stages",
+  "facts": {
+   "name": "Emergenza",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Online entry via emergenza.net",
+   "when": "—",
+   "distance_minutes": 20,
+   "pay_to_play": "quota",
+   "stage": {
+    "format": "showcase_apply",
+    "rig_support": 2,
+    "sound": 0,
+    "genre_focus": 0,
+    "gear": "—"
+   },
+   "summary": "NYC-wide · Showcase (apply) · slot: — · Battle-of-the-bands format: advancement depends on ticket sales and audience voting",
+   "verify": "Format, slot length and sign-up route taken from the organiser's own page or official listing (Sep 2026)",
+   "sources": [
+    "https://www.emergenza.net/"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 0,
+   "fit": 0,
+   "likelihood": 0,
+   "group": "avoid",
+   "why": "On your do-not-contact list.",
+   "route": "Skipped at your request.",
+   "flags": [
+    "do-not-contact"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "colossus",
+  "category": "open_stages",
+  "facts": {
+   "name": "The New Colossus Festival 2027",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Online application ($100 fee) at newcolossusfestival.com/apply",
+   "when": "Deadline Dec 1 2026",
+   "distance_minutes": 25,
+   "pay_to_play": "fee",
+   "stage": {
+    "format": "festival_open_call",
+    "rig_support": 1,
+    "sound": 0,
+    "genre_focus": 0,
+    "set_minutes": 30,
+    "gear": "—"
+   },
+   "summary": "Manhattan · Festival / open call · slot: 30 min · Indie-rock showcase festival; $100 application fee; full bands only",
+   "verify": "Format, slot length and sign-up route taken from the organiser's own page or official listing (Sep 2026)",
+   "sources": [
+    "https://www.newcolossusfestival.com/apply",
+    "https://www.newcolossusfestival.com/apply"
+   ],
+   "seen_date": "2026-09-22",
+   "cost": "$100 application fee",
+   "cost_amount": 100
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 0,
+   "fit": 0,
+   "likelihood": 0,
+   "group": "avoid",
+   "why": "Pay-to-play (fee) conflicts with your red line (none).",
+   "route": "Skip.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "signal",
+  "category": "open_stages",
+  "facts": {
+   "name": "Signal · Open Decks",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Free, 21+. Half the slots go to the previous night's waitlist, half to door sign-ups. RA listing",
+   "when": "Irregular (Nov 20 2025, Mar 25 2026 seen) · watch RA / IG",
+   "distance_minutes": 25,
+   "min_age": 21,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "open_decks",
+    "rig_support": 1,
+    "sound": 2,
+    "genre_focus": 2,
+    "set_minutes": 15,
+    "gear": "Club booth"
+   },
+   "summary": "Brooklyn · Open decks · slot: 15 min (CDJs or turntables)",
+   "verify": "Sound: d&b audiotechnik (Mixmag). 210 cap, no phones on the floor. — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://ra.co/events/2389313",
+    "https://ra.co/events/2389313"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 2,
+   "fit": 1,
+   "likelihood": 1,
+   "group": "avoid",
+   "why": "DJ-only night and you don't DJ.",
+   "route": "Skip.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "lotradio",
+  "category": "open_stages",
+  "facts": {
+   "name": "The Lot Radio",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Show proposal form: thelotradio.com/showform",
+   "when": "24/7 · 200+ residents and guests a week",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "radio_livestream",
+    "rig_support": 3,
+    "sound": 0,
+    "genre_focus": 2,
+    "gear": "Booth + stream"
+   },
+   "summary": "Brooklyn · Radio / livestream · slot: 1-hour shows typical",
+   "verify": "Sound: Broadcast booth (not a PA room).",
+   "sources": [
+    "https://www.thelotradio.com/showform",
+    "https://www.thelotradio.com/showform"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 5,
+   "fit": 9,
+   "likelihood": 7,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Show proposal form: thelotradio.com/showform",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "elsewhere",
+  "category": "open_stages",
+  "facts": {
+   "name": "Elsewhere · Zone One / local-night openers",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "apply_how": "Artist Typeform via elsewhere.club/help · info@elsewhere.club",
+   "when": "Nightly",
+   "distance_minutes": 25,
+   "pay_to_play": "no",
+   "stage": {
+    "format": "direct_booking",
+    "rig_support": 3,
+    "sound": 2,
+    "genre_focus": 2,
+    "set_minutes": 30,
+    "gear": "Live-band setups are normal"
+   },
+   "summary": "Brooklyn · Direct booking · slot: Opener 30–45 min",
+   "verify": "Sound: d&b KSL in The Hall (Bernie's Audio, unconfirmed). — Schedule or policy not confirmed on a 2026 listing; check before travelling",
+   "sources": [
+    "https://www.elsewhere.club/help",
+    "https://www.elsewhere.club/help"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 9,
+   "fit": 10,
+   "likelihood": 8,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Artist Typeform via elsewhere.club/help · info@elsewhere.club",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "delirium",
+  "category": "open_stages",
+  "facts": {
+   "name": "Delirium Open Decks",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "live-electronic-downtempo",
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Walk-up, first come first served, $10, 18+. Host: Tonton. RA",
+   "when": "Every Tuesday 8pm–1am",
+   "distance_minutes": 25,
+   "min_age": 18,
+   "pay_to_play": "fee",
+   "stage": {
+    "format": "open_decks",
+    "rig_support": 1,
+    "sound": 1,
+    "genre_focus": 2,
+    "set_minutes": 20,
+    "gear": "2× XDJ-1000MK2, DJM-900NXS2. USB only, no laptops."
+   },
+   "summary": "Brooklyn · Open decks · slot: 20 min",
+   "verify": "Sound: JBL tops + subs.",
+   "sources": [
+    "https://ra.co/events/2375511",
+    "https://ra.co/events/2375511"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 0,
+   "fit": 0,
+   "likelihood": 0,
+   "group": "avoid",
+   "why": "Pay-to-play (fee) conflicts with your red line (none).",
+   "route": "Skip.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "the-cityfox-experience",
+  "category": "promoters",
+  "facts": {
+   "name": "The Cityfox Experience",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "url": "https://www.vividseats.com/the-cityfox-halloween-festival-tickets/performer/116123",
+   "min_draw_band": 4,
+   "summary": "Brands: Cityfox Odyssey (27-hour NYE), Cityfox Halloween Festival, Cityfox Live. Rooms: Avant Gardner / Brooklyn Mirage complex, multi-stage warehouse takeovers. Books: Melodic house & techno at headline level, unusually live-friendly — RÜFÜS DU SOL, Monolink, Stimming live have all played; supports come via agents",
+   "verify": "2026 dates on ticket platforms; press coverage of Halloween lineup (Lee Burridge, Bedouin, Monolink) and RÜFÜS/Solomun NYE Odyssey; official site not directly fetchable and no published booking contact found — Contact source: IG confirmed via stayhappening.com Cityfox Live event social links; official X @cityfoxexp; cityfox.us JS-blocked, no booking email published",
+   "sources": [
+    "https://www.vividseats.com/the-cityfox-halloween-festival-tickets/performer/116123"
+   ],
+   "seen_date": "2026-08-12",
+   "links": {
+    "instagram": "@cityfoxexperience"
+   }
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 10,
+   "fit": 8,
+   "likelihood": 1,
+   "group": "above",
+   "why": "Books acts at draw band 4; you're at 1; no open door; same city.",
+   "route": "Be visible on the bills that feed their undercards.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "zero",
+  "category": "promoters",
+  "facts": {
+   "name": "Zero",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "url": "https://ra.co/promoters/29927",
+   "min_draw_band": 2,
+   "summary": "Brands: ZERO CHILL, Zero Presents: The Masquerade, secret-location warehouse parties. Rooms: Undisclosed/TBA Brooklyn warehouses and lofts. Books: House, indie dance and melodic DJs for a fashion-adjacent Brooklyn crowd; DJ-centric, locals appear on undercards",
+   "verify": "RA promoter page live with events; 'Zero Presents: The Masquerade 2026' on Shotgun confirms 2026 activity; no published email anywhere official — Contact source: Shotgun organizer page (shotgun.live/en/venues/zero-official) links instagram.com/zero_community + matching SoundCloud; no email anywhere official",
+   "sources": [
+    "https://ra.co/promoters/29927"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 7,
+   "fit": 5,
+   "likelihood": 5,
+   "group": "reach",
+   "why": "Books acts at draw band 2; you're at 1; no open door; same city.",
+   "route": "Be visible on the bills that feed their undercards.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "deep-root-records-deep-root-tribe",
+  "category": "promoters",
+  "facts": {
+   "name": "Deep Root Records / Deep Root Tribe",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "contact": "bookings@deeprootrecords.com / demos@deeprootrecords.com",
+   "contact_source": "Published on the organisation's own site or official listing",
+   "url": "https://deeprootrecords.com",
+   "min_draw_band": 1,
+   "summary": "Brands: Deep Root Tribe summer yacht cruise series, rooftop pool parties, club showcases. Rooms: Circle Line / Jewel yacht, Williamsburg rooftops, club takeovers (has produced at Avant Gardner, Musica). Books: Afro/organic/deep house, weekly all summer, mostly DJs, commercial-party leaning; volume operation that needs local talent constantly",
+   "verify": "Both emails published in deeprootrecords.com footer (fetched Aug 2026); 2026 Williamsburg rooftop pool party on Fever; yacht series described as weekly on site — Contact source: x.com/deeproottribe + official Spotify profile confirm handle; Forbes/Beatportal name Kambon; bookings@/demos@ already on file",
+   "sources": [
+    "https://deeprootrecords.com"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 6,
+   "fit": 5,
+   "likelihood": 10,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Use the published route.",
+   "flags": [
+    "in-conversation"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "ambient-church",
+  "category": "promoters",
+  "facts": {
+   "name": "Ambient Church",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "contact": "volunteer Airtable form via linktr.ee/ambientchurch",
+   "contact_source": "Published on the organisation's own site or official listing",
+   "url": "https://ambient.church",
+   "min_draw_band": 1,
+   "summary": "Brands: Ambient Church concert series (+ new festival, touring editions in LA etc.). Rooms: Historic churches and cathedrals with full visual projection. Books: Curated ambient/electronic live A/V performances — live acts only, no DJs",
+   "verify": "RA news covered their festival launch; RA promoter page and NTS 'Live at Ambient Church' series exist; could not verify a published email or individually confirm 2026 dates — partially secondhand, check IG before pitching — Contact source: x.com/ambientchurch + official linktr.ee/ambientchurch confirm handle; Brownstoner names Sweeny; no email published",
+   "sources": [
+    "https://ambient.church"
+   ],
+   "seen_date": "2026-08-12",
+   "links": {
+    "instagram": "@ambientchurch"
+   }
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 6,
+   "fit": 8,
+   "likelihood": 7,
+   "group": "reach",
+   "why": "No open door; same city.",
+   "route": "Be visible on the bills that feed their undercards.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "gemini-scorpio",
+  "category": "promoters",
+  "facts": {
+   "name": "Gemini & Scorpio",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "contact": "gs@geminiandscorpio.com (general), loft@geminiandscorpio.com (loft hire) · loft phone (718) 855-1761",
+   "contact_source": "Published on the organisation's own site or official listing",
+   "url": "https://www.geminiandscorpio.com/events.html",
+   "min_draw_band": 1,
+   "summary": "Brands: Themed costume/immersive parties, Dark DecaDance, long-running weekly NYC events list. Rooms: G&S Loft (Gowanus) + rented spaces. Books: Immersive events mixing DJs, live music, burlesque and performance; burner-adjacent, emerging-performer friendly",
+   "verify": "Loft and events list active (venue listings updated Aug 2026, RA club page live); individual 2026 event dates not confirmed first-hand — confirm current cadence via their list before pitching — Contact source: Emails + IG on geminiandscorpio.com social.html and loft.html (fetched Aug 2026); Fuchs per LinkedIn + Time Out credits",
+   "sources": [
+    "https://www.geminiandscorpio.com/events.html"
+   ],
+   "seen_date": "2026-08-12",
+   "links": {
+    "instagram": "@gemini_scorpio"
+   }
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 6,
+   "fit": 8,
+   "likelihood": 8,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Use the published route.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "azure-day-party",
+  "category": "promoters",
+  "facts": {
+   "name": "Azure Day Party",
+   "city": "New York",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house"
+   ],
+   "status": "active",
+   "act_level": 3,
+   "contact": "hello@azurepresents.com",
+   "contact_source": "Published on the organisation's own site or official listing",
+   "url": "https://www.azuredayparty.com",
+   "min_draw_band": 1,
+   "summary": "Brands: Azure rooftop Sundays (plus editions in Boston, Chicago, DC and elsewhere). Rooms: Williamsburg rooftop with Manhattan skyline views. Books: House DJs, weekly through summer; crowd skews mainstream day-party rather than underground",
+   "verify": "Email and phone published on site (fetched Aug 2026); weekly Sunday series stated; multi-city expansion listed — Contact source: azuredayparty.com footer (fetched Aug 2026) lists email, phone, IG + TikTok @azuredayparty",
+   "sources": [
+    "https://www.azuredayparty.com"
+   ],
+   "seen_date": "2026-08-12",
+   "links": {
+    "instagram": "@azuredayparty"
+   }
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 6,
+   "fit": 5,
+   "likelihood": 9,
+   "group": "now",
+   "why": "Same city.",
+   "route": "Use the published route.",
+   "flags": [],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "amsterdam-dance-event-ade",
+  "category": "showcases",
+  "facts": {
+   "name": "Amsterdam Dance Event (ADE)",
+   "city": "Amsterdam",
+   "country": "NL",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "No general artist or showcase open call. ADE Arts and Culture accepts project ideas (deadline 10 August 2026 for the 2026 edition). Verified on the official ADE Participate page, August 2026.",
+   "when": "October — 21-25 October 2026 (verified on the official ADE Pro page, August 2026). 2027 dates not yet announced as of August 2026.",
+   "month": 8,
+   "cost": "ADE Pro pass prices are not published on the ADE Pro page (checked August 2026); they are shown only in the ticket shop. Budget separately for Amsterdam accommodation in peak week.",
+   "capacity": 11000,
+   "min_draw_band": 3,
+   "summary": "The largest electronic-music business event in the world: five days, roughly a thousand club, label and showcase events across Amsterdam, wrapped around ADE Pro, the conference and networking layer. Labels, booking agencies, distributors, managers, promoters and streaming staff use it as their annual meeting round.",
+   "verify": "Contact source: IG confirmed in official ADE site footer (Aug 2026); email published on amsterdam.info directory — ADE's own site uses contact forms only",
+   "sources": [
+    "https://www.amsterdam-dance-event.nl/en/ade-pro/",
+    "https://www.amsterdam-dance-event.nl/en/participate/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 9,
+   "fit": 8,
+   "likelihood": 0,
+   "group": "above",
+   "why": "No live video; wants draw band 3; you're at 1; outside your travel radius and you won't fly.",
+   "route": "No general artist or showcase open call. ADE Arts and Culture accepts project ideas (deadline 10 August 2026 for the 2026 edition). Verified on the official ADE Participate page, August 2026.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "reeperbahn-festival",
+  "category": "showcases",
+  "facts": {
+   "name": "Reeperbahn Festival",
+   "city": "Hamburg",
+   "country": "DE",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Own web form at reeperbahnfestival.com/en/artist-submission. The window for the following September edition historically opens over winter and early spring. Only successful applicants are contacted.",
+   "when": "September — 16-19 September 2026 (verified on the official artist submission page, August 2026). 2027 dates not yet announced as of August 2026.",
+   "month": 8,
+   "cost": "No application fee stated on the official artist submission page. Delegate ticket prices were not published on the pages checked (August 2026).",
+   "min_draw_band": 2,
+   "summary": "Germany's largest showcase festival plus a substantial industry conference. Several hundred emerging acts across dozens of small Hamburg venues, with a delegate crowd of German and European bookers, festival programmers, publishers and label A and R. The bill skews band and indie, but there is a real live-electronic strand.",
+   "verify": "Contact source: Email, phone and named programming lead verified on official RBX contact page; IG confirmed in official site footer (Aug 2026)",
+   "sources": [
+    "https://www.reeperbahnfestival.com/en/artist-submission",
+    "https://www.reeperbahnfestival.com/en/submissions"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 7,
+   "fit": 8,
+   "likelihood": 2,
+   "group": "above",
+   "why": "No live video; wants draw band 2; you're at 1; outside your travel radius and you won't fly.",
+   "route": "Own web form at reeperbahnfestival.com/en/artist-submission. The window for the following September edition historically opens over winter and early spring. Only successful applicants are contacted.",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "sxsw",
+  "category": "showcases",
+  "facts": {
+   "name": "SXSW",
+   "city": "Austin, TX",
+   "country": "US",
+   "lane_tags": [
+    "melodic-house-techno",
+    "organic-house",
+    "live-electronic-downtempo"
+   ],
+   "status": "active",
+   "act_level": 1,
+   "apply_how": "Open call through cart.sxsw.com. For SXSW 2027: applications opened Tuesday 23 June 2026, the rate increases Tuesday 1 September 2026, and the final deadline is Friday 20 November 2026 (official SXSW deadlines page).",
+   "when": "March — 15-21 March 2027 (verified, official SXSW site).",
+   "month": 3,
+   "cost": "The application fee amount is not published on the official showcase applications page, which states only that the rate increases on 1 September 2026 (checked August 2026). Badge prices not verified.",
+   "capacity": 30000,
+   "min_draw_band": 3,
+   "summary": "A vast multi-industry conference (music, film, tech) with a music festival attached. Showcasing acts play short unpaid sets in Austin venues during the music week, surrounded by an enormous badge-holder crowd.",
+   "verify": "Contact source: IG confirmed in official sxsw.com footer (Aug 2026); no direct email published",
+   "sources": [
+    "https://sxsw.com/apply/showcase-applications/"
+   ],
+   "seen_date": "2026-08-12"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 9,
+   "fit": 8,
+   "likelihood": 0,
+   "group": "attend",
+   "why": "No live video; wants draw band 3; you're at 1.",
+   "route": "Open call through cart.sxsw.com. For SXSW 2027: applications opened Tuesday 23 June 2026, the rate increases Tuesday 1 September 2026, and the final deadline is Friday 20 November 2026 (official SXSW deadlines page).",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ },
+ {
+  "id": "mondo-nyc-showcase",
+  "category": "showcases",
+  "facts": {
+   "name": "Mondo.NYC showcase",
+   "city": "New York",
+   "country": "US",
+   "status": "active",
+   "act_level": 2,
+   "apply_how": "Via Groover: mondo.nyc/showcase",
+   "when": "2026 closed (Jun 30) · watch for the 2027 call around spring",
+   "month": 10,
+   "summary": "New York industry conference with showcase slots in front of label, agent and media attendees; applications via a submission platform",
+   "verify": "Application window for the next edition not yet published when checked (Sep 2026)",
+   "sources": [
+    "https://www.mondo.nyc/showcase"
+   ],
+   "seen_date": "2026-09-22"
+  },
+  "judgment": {
+   "profile_id": "demo-hollow-tide",
+   "impact": 7,
+   "fit": 5,
+   "likelihood": 4,
+   "group": "reach",
+   "why": "No live video.",
+   "route": "Via Groover: mondo.nyc/showcase",
+   "flags": [
+    "contact-unpublished"
+   ],
+   "scored_at": "2026-10-14T22:33:09+00:00",
+   "scorer": "mock"
+  }
+ }
+]
